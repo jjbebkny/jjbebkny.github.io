@@ -1,0 +1,212 @@
+.background {
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("poambg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.MJ {
+	position: absolute;
+	top: 5px;
+	left: 5px; 
+	font-size: 12vw; 
+	color: white;
+	font-family: reross-quadratic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+
+}
+
+.poam {
+	position: absolute;
+	top: 23vw;
+	left: 3vw;
+	width:50vw;
+	height: 50vw;
+
+}
+
+
+.date {
+	position: absolute;
+	top: 42vw;
+	left: 32vw; 
+	font-size: 10.5vw; 
+	font-family: Helvetica; 
+	font-weight: 700;
+	color: white;
+	transform: rotate(-90deg);
+}
+
+.info {
+	position: absolute;
+	top: 420px;
+	left: 840px; 
+	font-size: 40px; 
+	font-family: Helvetica; 
+	font-weight: 400;
+	color: white;
+	
+}
+
+.POAM {
+	position: absolute;
+	top: 470px;
+	left: 840px; 
+	font-size: 60px; 
+	font-family: Helvetica; 
+	font-weight: 700;
+	color: white;
+}
+ 
+.info2 {
+	position: absolute;
+	top: 540px;
+	left: 840px; 
+	font-size: 40px; 
+	font-family: Helvetica; 
+	font-weight: 400;
+	color: white;
+}
+
+.info3 {
+	position: absolute;
+	top: 655px;
+	left: 840px; 
+	font-size: 40px; 
+	font-family: Helvetica; 
+	font-weight: 400;
+	color: white;
+}
+
+.price {
+	position: absolute;
+	top: 1040px;
+	left: 36vw; 
+	font-size: 4.2vw; 
+	font-family: Helvetica; 
+	font-weight: 700;
+	color: white;
+} 
+
+.box {
+	margin-bottom: 20px;
+	position: absolute;
+	border: 7px solid rgb(255,255,255);
+	width: 30vw;
+	height: 3vw; 
+	top: 1120px;
+	left:522px;
+	transition: all 250ms ease-in-out;
+	
+}
+
+.box:hover { 
+	position: absolute;
+	width: 460px;
+	height: 60px; 
+	top: 1110px;
+	left:512px;
+
+}
+
+.buy {
+	position: absolute;
+	top: 1130px;
+	left: 650px; 
+	font-size: 30px; 
+	font-family: Helvetica; 
+	font-weight: 400;
+	color: white;
+}
+
+
+@media (max-width: 711px) {
+	.MJ {
+		font-size: 80px;
+		text-align: left;
+	}
+
+	.background {
+		background-image: url("poambg.jpg")
+	}
+
+	.masterinfo {
+		left: 10vw;
+		top:750px;
+	}
+
+	.poam {
+		left: 20px;
+		top: 140px;
+		width: 20vw;
+  		height: 20vh;
+	}
+
+	.date {
+		top:80vw;
+		left:60vw;
+		font-size: 10vw;
+	}
+
+	.info {
+		left: 8vw;
+		top: 700px;
+		font-size: 7vw;
+	}
+
+	.POAM {
+		left: 8vw;
+		top: 740px;
+		font-size: 10vw;
+	}
+
+	.info2 {
+		left: 8vw;
+		top: 790px;
+		font-size: 7vw;
+	}
+
+	.info3 {
+		left: 8vw;
+		top: 900px;
+		font-size: 7vw;
+	} 
+
+	.price {
+		left: 23vw;
+		font-size: 8vw;
+	}
+
+	.box {
+		left: 5vw;
+		width: 360px;
+		height: 30px;
+		top:1085px;
+	}
+
+	.box:hover { 
+	position: absolute;
+	width: 360px;
+	height: 30px; 
+	top: 1085px;
+	left:5vw;
+
+
+}
+
+	.buy {
+		left: 36vw;
+		font-size: 5vw;
+		top:1095px;
+	}
+
+
+} 
+
+
