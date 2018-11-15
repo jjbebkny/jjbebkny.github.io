@@ -126,11 +126,19 @@
 }
 
 
-@media (max-width: 711px) {
+@media (max-width: 711px) { 
+
+.album {
+	top: 300px;
+	left:30px;
+}
+
+
 	.MJ {
 		font-size: 80px;
 		text-align: left;
 	}
+	
 
 	.background {
 		background-image: url("poambg.jpg")
@@ -141,17 +149,19 @@
 		top:750px;
 	}
 
-	.poam {
-		left: 20px;
-		top: 140px;
-		width: 20vw;
-  		height: 20vh;
-	}
+	
+.poam {
+		display:none;
+
+	} 
+ 
 
 	.date {
-		top:80vw;
-		left:60vw;
-		font-size: 10vw;
+		display: none;
+		/*top:82vw;
+		left:50vw;
+	
+		font-size: 70px;*/
 	}
 
 	.info {
