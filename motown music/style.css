@@ -1,0 +1,79 @@
+.background {
+ 	top: 0;
+  	left: 0;
+  	width: 100vw;
+ 	height: 100vh;
+ 	position: fixed;
+ 	background-image: url("artboard 3.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.one {
+	position: absolute;
+	top: 200px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 60px; 
+	color: white; 
+	font-weight: 200; 
+
+} 
+
+.example1 {
+	position: absolute;
+	top: 210px; 
+	left: 260px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200; 
+ 
+} 
+
+
+.two {
+	position: absolute;
+	top: 750px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 60px; 
+	color: white; 
+	font-weight: 200; 
+}
+
+
+.example2 {
+	position: absolute;
+	top: 760px; 
+	left: 260px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200; 
+}
+
+.jcole {
+	position: absolute;
+	top: 300px; 
+	left: 200px;
+} 
+
+.ronnie {
+		position: absolute;
+	top: 300px; 
+	left: 800px;
+}
+
+
+.greenback {
+	position: absolute;
+	top: 850px; 
+	left: 200px;
+}
+
+.dolphin {
+	position: absolute;
+	top: 850px; 
+	left: 800px;
+}
