@@ -1,18 +1,141 @@
+.bg {
+	width: 100vw;
+ 	height: 100vh;
+	position: fixed;
+	background-image: url("cover bg.png");
+	background-position: center; 
+	background-size: cover;
+}
+
+.Motown {
+	position: absolute;
+	margin-top: 18px; 
+	left: 260px; 
+} 
+
+.box1 {
+ 	position: absolute;
+	top: 300px; 
+	left:480px;
+	width: 500px;
+	height: 60px;
+	background-color: white;
+	opacity: 0.5;
+	border-radius: 32px;
+}
+
+
+
+.Jazz {
+	position: absolute;
+	top: 490px; 
+	left: 640px;
+}
+
+.box2 {
+	position: absolute;
+	top: 400px; 
+	left:560px;
+	width: 350px;
+	height: 250px;
+	background-color: rgb(90,40,230);
+	opacity: 0.5;
+	border-radius: 32px;
+	cursor: pointer; 
+  	transition: all 0.25s ease-in-out;
+}
+
+.box2:hover {
+	background-color: rgb(10, 30, 250);
+	opacity: .7;
+	top: 390px; 
+	left: 540px;
+	width: 380px;
+	height: 280px;
+}
+
+.Funk {
+	position: absolute;
+	top: 490px; 
+	left: 1050px;
+}
+
+.box3 {
+	position: absolute;
+	top: 400px; 
+	left:960px;
+	width: 350px;
+	height: 250px;
+	background-color: rgb(90,40,230);
+	opacity: 0.5;
+	border-radius: 32px;
+}
+
+
+
+.Soul {
+	position: absolute;
+	top: 450px; 
+	left: 240px;
+}
+
+.box4 {
+	position: absolute;
+	top: 400px; 
+	left:160px;
+	width: 350px;
+	height: 250px;
+	background-color: rgb(90,40,230);
+	opacity: 0.5;
+	border-radius: 32px;
+	cursor: pointer; 
+  	transition: all 0.25s ease-in-out;
+}
+
+.box4:hover {
+	background-color: rgb(10, 30, 250);
+	opacity: .7;
+	top: 390px; 
+	left:140px;
+	width: 380px;
+	height: 280px;
+}
+
+.text {
+	position: absolute;
+	top: 300px; 
+	left: 540px;
+	font-family: Helvetica Neue; 
+	font-size: 50px; 
+	color: white; 
+	font-weight: 200;
+}
+
+
 .background {
- 	top: 0;
   	left: 0;
   	width: 100vw;
  	height: 100vh;
  	position: fixed;
- 	background-image: url("artboard 3.png");
+ 	background-image: url("jazz bg.png");
 	background-position: center;
 	background-size: cover;
 }
 
+
+
+.title {
+	position: fixed;
+	margin-top: 28px; 
+	left: 40px;
+	width: 
+}
+
+
 .one {
 	position: absolute;
 	top: 200px; 
-	left: 200px;
+	left: 130px;
 	font-family: Helvetica Neue; 
 	font-size: 60px; 
 	color: white; 
@@ -20,10 +143,10 @@
 
 } 
 
-.example1 {
+.fruit {
 	position: absolute;
 	top: 210px; 
-	left: 260px;
+	left: 200px;
 	font-family: Helvetica Neue; 
 	font-size: 30px; 
 	color: white; 
@@ -31,11 +154,21 @@
  
 } 
 
+.mystic {
+	position: absolute;
+	top: 210px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
 
 .two {
 	position: absolute;
 	top: 750px; 
-	left: 200px;
+	left: 130px;
 	font-family: Helvetica Neue; 
 	font-size: 60px; 
 	color: white; 
@@ -43,14 +176,25 @@
 }
 
 
-.example2 {
+.greenback {
 	position: absolute;
 	top: 760px; 
-	left: 260px;
+	left: 200px;
 	font-family: Helvetica Neue; 
 	font-size: 30px; 
 	color: white; 
 	font-weight: 200; 
+}
+
+.dolphin {
+	position: absolute;
+	top: 760px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200; 
+
 }
 
 .jcole {
@@ -66,13 +210,115 @@
 }
 
 
-.greenback {
+
+.joey {
 	position: absolute;
 	top: 850px; 
 	left: 200px;
 }
 
-.dolphin {
+.ahmad {
+	position: absolute;
+	top: 850px; 
+	left: 800px;
+}
+
+.background2 {
+	left: 0;
+  	width: 100vw;
+ 	height: 100vh;
+ 	position: fixed;
+ 	background-image: url("soul bg-05.png");
+	background-position: center;
+	background-size: cover;
+}
+.title2 {
+	position: fixed;
+	margin-top: 28px; 
+	left: 40px;
+	width: 
+}
+
+.number1 {
+    position: absolute;
+	top: 200px; 
+	left: 130px;
+	font-family: Helvetica Neue; 
+	font-size: 60px; 
+	color: white; 
+	font-weight: 200; 
+}
+
+.number2 {
+	position: absolute;
+	top: 750px; 
+	left: 130px;
+	font-family: Helvetica Neue; 
+	font-size: 60px; 
+	color: white; 
+	font-weight: 200; 
+}
+
+
+.lost {
+	position: absolute;
+	top: 210px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.brother {
+	position: absolute;
+	top: 210px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.chance {
+	position: absolute;
+	top: 300px; 
+	left: 200px;
+}
+
+.willie {
+	position: absolute;
+	top: 300px; 
+	left: 800px;
+} 
+
+.smile {
+	position: absolute;
+	top: 760px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200; 
+}
+
+.love {
+	position: absolute;
+	top: 760px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.jay {
+	position: absolute;
+	top: 850px; 
+	left: 200px;
+}
+
+.stevie {
 	position: absolute;
 	top: 850px; 
 	left: 800px;
