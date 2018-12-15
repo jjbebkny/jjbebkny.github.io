@@ -219,6 +219,16 @@
 	font-weight: 200; 
 }
 
+.three {
+	position: absolute;
+	top: 1290px; 
+	left: 130px;
+	font-family: Helvetica Neue; 
+	font-size: 60px; 
+	color: white; 
+	font-weight: 200;
+}
+
 
 .greenback1 {
 	position: absolute;
@@ -304,25 +314,6 @@
 	width: 
 }
 
-.number1 {
-    position: absolute;
-	top: 200px; 
-	left: 130px;
-	font-family: Helvetica Neue; 
-	font-size: 60px; 
-	color: white; 
-	font-weight: 200; 
-}
-
-.number2 {
-	position: absolute;
-	top: 750px; 
-	left: 130px;
-	font-family: Helvetica Neue; 
-	font-size: 60px; 
-	color: white; 
-	font-weight: 200; 
-}
 
 
 .lost1 {
@@ -417,6 +408,125 @@
 	font-weight: 200;
 }
 
+.i1 {
+	position: absolute;
+	top: 1300px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 400;
+}
+
+.i2 {
+	position: absolute;
+	top: 1340px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.lady1 {
+	position: absolute;
+	top: 1300px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 400;
+}
+
+.lady2 {
+	position: absolute;
+	top: 1340px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.mask1 {
+	position: absolute;
+	top: 1300px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 400;
+}
+
+.mask2 {
+	position: absolute;
+	top: 1340px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.prison1 {
+	position: absolute;
+	top: 1300px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 400;
+}
+
+.prison2 {
+	position: absolute;
+	top: 1340px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.smoke1 {
+	position: absolute;
+	top: 1300px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 400;
+}
+
+.smoke2 {
+	position: absolute;
+	top: 1340px; 
+	left: 200px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.changed1 {
+	position: absolute;
+	top: 1300px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 400;
+}
+
+.changed2 {
+	position: absolute;
+	top: 1340px; 
+	left: 800px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
 
 .jay {
 	position: absolute;
@@ -427,6 +537,42 @@
 .stevie {
 	position: absolute;
 	top: 850px; 
+	left: 800px;
+}
+
+.kenny {
+	position: absolute;
+	top: 1390px; 
+	left: 200px;
+}
+
+.isley {
+	position: absolute;
+	top: 1390px; 
+	left: 800px;
+}
+
+.future {
+	position: absolute;
+	top: 1390px; 
+	left: 200px;
+}
+
+.carlton{
+	position: absolute;
+	top: 1390px; 
+	left: 800px;
+}
+
+.smino {
+	position: absolute;
+	top: 1390px; 
+	left: 200px;
+}
+
+.lonnie {
+	position: absolute;
+	top: 1390px; 
 	left: 800px;
 }
 
