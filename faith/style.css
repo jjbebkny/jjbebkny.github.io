@@ -102,7 +102,9 @@
 .step {
 	position: absolute;
 	top: 90px; 
-	left:520px;
+	left:0;
+	right: 0;
+	margin: auto;
 	width: 200px;
 	height: 200px;
 	/*background-color: rgb(90,40,230);*/
@@ -122,8 +124,11 @@
 
 .one { 
 	position: absolute;
-	top: 170px; 
-	left:535px;
+	top: 170px;
+	width: 180px; 
+	left:0;
+	right: 0;
+	margin: auto;
 	font-family: Helvetica Neue; 
 	font-size: 45px; 
 	color: white; 
@@ -135,7 +140,9 @@
 .receive {
 	position: absolute;
 	top: 380px; 
-	left:520px;
+	left:0px;
+	right: 0px;
+	margin: auto;
 	width: 200px;
 	height: 200px;
 	background-image: url("receive.png");
@@ -153,7 +160,10 @@
 .two {
 	position: absolute;
 	top: 450px; 
-	left:440px;
+	left:0px;
+	width: 380px;
+	right: 0px;
+	margin: auto;
 	font-family: Helvetica Neue; 
 	font-size: 45px; 
 	color: white; 
@@ -163,7 +173,9 @@
 .pour {
 	position: absolute;
 	top: 700px; 
-	left:520px;
+	left:0px;
+	right:0px;
+	margin: auto;
 	width: 200px;
 	height: 200px;
 	/*background-color: rgb(90,40,230);*/
@@ -185,7 +197,10 @@
 .three {
 	position: absolute;
 	top: 770px; 
-	left:480px;
+	width:280;
+	left:0px;
+	right: 0px;
+	margin: auto;
 	font-family: Helvetica Neue; 
 	font-size: 45px; 
 	color: white; 
