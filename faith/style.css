@@ -523,5 +523,392 @@
 	left: 780px;
 }
 
+.inspo1 {
+	position: absolute;
+	top: 4180px; 
+	left:0px;
+	right: 0px;
+	margin: auto;
+	width: 500px;
+	height: 80px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 200;
+
+}
+
+.panel {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 7900px; 
+	background-color: rgb(255,255,255);
+
+}
+
+.pigalle {
+	position: absolute;
+	background-image: url(pigalle.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 550px;
+	top: 200px; 
+	left: 305px;
+}
+
+.court {
+	position: absolute;
+	top: 280px; 
+	left:840px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 400;
+}
+
+.pigalle2 {
+	position: absolute;
+	background-image: url(pigalle2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 500px;
+	top: 780px; 
+	left: 305px;
+}
+
+.pigalle3 {
+	position: absolute;
+	background-image: url(pigalle3.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 600px;
+	top: 550px; 
+	left: 740px;
+}
+
+.spray {
+	position: absolute;
+	top: 1195px; 
+	left:840px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 400;
+}
+
+.quesh {
+	position: absolute;
+	background-image: url(quesh.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 400px;
+	top: 1315px; 
+	left: 305px;
+	transform: rotate(180deg);
+
+}
+
+.mrcube {
+	position: absolute;
+	background-image: url(mrcube.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 635px;
+	height: 400px;
+	top: 1430px; 
+	left: 625px;
+	transform: rotate(90deg);
+}
+
+.safer {
+	position: absolute;
+	background-image: url(safer.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 1700px; 
+	left: 305px;
+	/*transform: rotate(180deg);*/
+}
+
+.jesus {
+	position: absolute;
+	background-image: url(jesus.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 825px;
+	top: 1980px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.warz {
+	position: absolute;
+	background-image: url(warz.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 400px;
+	top: 2615px; 
+	left: 305px;
+}
+
+.shhh {
+	position: absolute;
+	background-image: url(shhh.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 635px;
+	top: 2615px; 
+	left: 735px;
+}
+
+.boog {
+	position: absolute;
+	background-image: url(boog.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 3000px; 
+	left: 305px;
+}
+
+.art {
+	position: absolute;
+	top: 3280px; 
+	left:380px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 400;
+}
+
+.stoop {
+	position: absolute;
+	background-image: url(stoop.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 400px;
+	top: 3385px; 
+	left: 305px;
+}
+
+.run {
+	position: absolute;
+	background-image: url(run.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 630px;
+	height: 400px;
+	top: 3500px; 
+	left: 625px;
+	transform: rotate(90deg);
+}
+
+.renmen {
+	position: absolute;
+	background-image: url(renmen1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 3765px; 
+	left: 305px;
+}
+
+.gunpeace {
+	position: absolute;
+	background-image: url(gunpeace.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 400px;
+	top: 4050px; 
+	left: 740px;
+}
+
+.bansky {
+	position: absolute;
+	background-image: url(bansky.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 400px;
+	top: 4385px; 
+	left: 740px;
+}
+
+.moon {
+	position: absolute;
+	background-image: url(moon.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 635px;
+	top: 4050px; 
+	left: 305px;
+}
+
+.mj {
+	position: absolute;
+	background-image: url(mjstreet.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 825px;
+	top: 4715px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.streets {
+	position: absolute;
+	top: 5250px; 
+	left:380px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 400;
+}
+
+.signs {
+	position: absolute;
+	background-image: url(signs.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 635px;
+	top: 5355px; 
+	left: 735px;
+}
+
+.stickers {
+	position: absolute;
+	background-image: url(stickers.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 400px;
+	top: 5355px; 
+	left: 305px;
+}
+
+.stickers2 {
+	position: absolute;
+	background-image: url(stickers2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 400px;
+	height: 635px;
+	top: 5685px; 
+	left: 305px;
+}
+
+.rainstick {
+	position: absolute;
+	background-image: url(rainstick.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 6015px; 
+	left: 735px;
+}
+
+.stickers3 {
+	position: absolute;
+	background-image: url(stickers3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 6295px; 
+	left: 305px;
+}
+
+.paintpoles {
+	position: absolute;
+	background-image: url(paintpoles.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+	width: 400px;
+	top: 6580px; 
+	left: 735px;
+}
+
+.red {
+	position: absolute;
+	background-image: url(red.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 560px;
+	top: 6580px; 
+	left: 305px;
+	
+}
+
+.lion {
+	position: absolute;
+	background-image: url(lion.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 6295px; 
+	left: 735px;
+}
+
+
+.feet2 {
+	position: absolute;
+	background-image: url(feet2.png);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	width: 625px;
+	top: 7215px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.backbox {
+	position: fixed;
+	top: 30px;
+	right: 20px;
+	width: 80px;
+	height: 40px; 
+	background-color: rgb(255,255,255);
+	cursor: pointer;
+}
+
+.back {
+	position: fixed;
+	top: 35px; 
+	right:30px;
+	font-family: Helvetica Neue; 
+	font-size: 25px; 
+	color: black; 
+	font-weight: 800;
+	cursor: pointer;
+}
 
 
