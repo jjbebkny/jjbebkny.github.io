@@ -466,9 +466,9 @@
 }
 
 
-.paris {
+.paris1 {
 	position: absolute;
-	background-image: url(paris.jpg);
+	background-image: url(paris1.jpg);
 	background-size: cover;
 	background-position: center;
 	width: 700px;
@@ -500,7 +500,7 @@
 
 }
 
-.sculpture {
+.cvrprs {
 	position: absolute;
 	background-image: url(cvrprs.png);
 	background-size: cover;
@@ -534,7 +534,7 @@
 	font-family: Helvetica Neue; 
 	font-size: 35px; 
 	color: white; 
-	font-weight: 200;
+	font-weight: 800;
 
 }
 
@@ -568,7 +568,7 @@
 	font-family: Helvetica Neue; 
 	font-size: 55px; 
 	color: black; 
-	font-weight: 400;
+	font-weight: 800;
 }
 
 .pigalle2 {
@@ -600,7 +600,7 @@
 	font-family: Helvetica Neue; 
 	font-size: 55px; 
 	color: black; 
-	font-weight: 400;
+	font-weight: 800;
 }
 
 .quesh {
@@ -693,7 +693,7 @@
 	font-family: Helvetica Neue; 
 	font-size: 55px; 
 	color: black; 
-	font-weight: 400;
+	font-weight: 800;
 }
 
 .stoop {
@@ -783,7 +783,7 @@
 	font-family: Helvetica Neue; 
 	font-size: 55px; 
 	color: black; 
-	font-weight: 400;
+	font-weight: 800;
 }
 
 .signs {
@@ -910,5 +910,331 @@
 	font-weight: 800;
 	cursor: pointer;
 }
+
+.panel1 {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 2760px; 
+	background-color: rgb(255,255,255);
+
+}
+
+.lourvew {
+	position: absolute;
+	top: 530px; 
+	left:-80px;
+	font-family: Helvetica Neue; 
+	font-size: 230px; 
+	color: black; 
+	font-weight: 800;
+	cursor: pointer;
+	transform: rotate(270deg);
+
+}
+
+.pyramid {
+	position: absolute;
+	background-image: url(pyramid.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	width: 600px;
+	top: 210px; 
+	left: 535px;
+}
+
+.clouds {
+	position: absolute;
+	background-image: url(clouds.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	width: 600px;
+	top: 680px; 
+	left: 535px;
+}
+
+.lourve {
+	position: absolute;
+	background-image: url(lourve.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 1160px; 
+	left: 305px;
+}
+
+.sculpture {
+	position: absolute;
+	background-image: url(sculpture.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 1160px; 
+	left: 735px;
+}
+
+.paris {
+	position: absolute;
+	background-image: url(paris.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 1150px;
+	width: 800px;
+	top: 1750px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.panel1 {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 2760px; 
+	background-color: rgb(255,255,255);
+
+}
+
+.panel2 {
+	position: absolute;
+	top: 3040px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 2760px; 
+	background-color: rgb(255,255,255);
+}
+
+.panel3 {
+	position: absolute;
+	top: 5910px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 2120px; 
+	background-color: rgb(255,255,255);
+}
+
+.versaille { 
+	position: absolute;
+	top: 3180px; 
+	left:740px;
+	font-family: Helvetica Neue; 
+	font-size: 80px; 
+	color: black; 
+	font-weight: 800;
+	text-align: left;
+
+}
+
+.gate {
+	position: absolute;
+	background-image: url(gate.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 400px;
+	top: 3090px; 
+	left: 305px;
+}
+
+.castle {
+	position: absolute;
+	background-image: url(castle.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 825px;
+	top: 3520px; 
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+}
+
+
+.palace2{
+	position: absolute;
+	background-image: url(palace2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 450px;
+	top: 4095px; 
+	left: 305px;
+}
+
+.mother {
+	position: absolute;
+	background-image: url(mother.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 450px;
+	top: 4320px; 
+	left: 305px;
+}
+
+.palace {
+	position: absolute;
+	background-image: url(palace.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 540px;
+	width: 365px;
+	top: 4095px; 
+	left: 775px;
+}
+
+.light {
+	position: absolute;
+	background-image: url(light.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 590px;
+	width: 365px;
+	top: 4595px; 
+	left: 305px;
+}
+
+.foutain {
+	position: absolute;
+	background-image: url(foutain.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 230px;
+	width: 450px;
+	top: 4660px; 
+	left: 690px;
+}
+
+.clock {
+	position: absolute;
+	background-image: url(clock.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 270px;
+	width: 450px;
+	top: 4915px; 
+	left: 690px;
+}
+
+.hallway {
+	position: absolute;
+	background-image: url(hallway.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 5210px; 
+	left: 305px;
+}
+
+.statue2 {
+	position: absolute;
+	background-image: url(statue2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 5210px; 
+	left: 735px;
+}
+
+.blue {
+	position: absolute;
+	top: 6060px; 
+	left:850px;
+	font-family: Helvetica Neue; 
+	font-size: 80px; 
+	color: black; 
+	font-weight: 800;
+	text-align: left;
+}
+
+.flag {
+	position: absolute;
+	background-image: url(flag.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 500px;
+	top: 5950px; 
+	left: 305px;
+}
+
+.sky {
+	position: absolute;
+	background-image: url(sky.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 6380px; 
+	left: 305px;
+}
+
+.eiffle {
+	position: absolute;
+	background-image: url(eiffle.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 6380px; 
+	left: 735px;
+}
+
+.gold {
+	position: absolute;
+	background-image: url(gold.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	width: 820px;
+	top: 6960px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.birdy {
+	position: absolute;
+	background-image: url(birdy.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 7440px; 
+	left: 305px;
+}
+
+
+.sacred {
+	position: absolute;
+	background-image: url(sacredheart.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 7440px; 
+	left: 735px;
+}
+
+
+
 
 
