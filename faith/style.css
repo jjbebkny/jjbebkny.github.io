@@ -159,9 +159,9 @@
 
 .two {
 	position: absolute;
-	top: 450px; 
+	top: 475px; 
 	left:0px;
-	width: 380px;
+	width: 450px;
 	right: 0px;
 	margin: auto;
 	font-family: Helvetica Neue; 
@@ -499,6 +499,40 @@
 	opacity: 0.6
 
 }
+
+.rome1 {
+	position: absolute;
+	background-image: url(rome1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 590px; 
+	left: 0px;
+	right:0px;
+	margin: auto;
+}
+
+.layer2 {
+	position: absolute;
+	background-image: url(layer2.png);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 590px;
+	left: 0px;
+	right:0px;
+	margin: auto;
+	opacity:0.0;
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+}
+
+.layer2:hover {
+	opacity: 0.6
+}
+
 
 .cvrprs {
 	position: absolute;
@@ -1234,7 +1268,393 @@
 	left: 735px;
 }
 
+.entrance {
+	position: absolute;
+	background-image: url(entrance.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 550px;
+	height: 385px;
+	top: 90px; 
+	left: 615px;
+}
+
+.box3 {
+	position: absolute;
+	top: 290px; 
+	left: 320px;
+  border: 5px;
+  padding: 20px; 
+  width: 270px;
+  height: 190px;
+  border-color: rgb(255,255,255); 
+  border-style: solid;
+}
+
+.arrived {
+	position: absolute;
+	top: 320px; 
+	left:345px;
+	font-family: Helvetica Neue; 
+	font-size: 45px;
+	text-align: right; 
+	color: white; 
+	font-weight: 400;
+}
+
+.line11 {
+	position: absolute;
+	width: 5px;
+	height: 80px;
+	background-color: rgb(255,255,255);
+	top:530px;
+	left: 450px;
+}
+
+.line12 {
+	position: absolute;
+	width: 5px;
+	height: 605px;
+	background-color: rgb(255,255,255);
+	top:310px;
+	left: 750px;
+	transform: rotate(90deg);
+}
+
+.thirst {
+	position: absolute;
+	top: 790px; 
+	left:880px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.quench {
+	position: absolute;
+	background-image: url(fountainr.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 680px; 
+	left: 400px;
+}
 
 
+.line13 {
+	position: absolute;
+	width: 5px;
+	height: 345px;
+	background-color: rgb(255,255,255);
+	top:925px;
+	left: 1050px;
+}
+
+.line14 {
+	position: absolute;
+	width: 5px;
+	height: 340px;
+	background-color: rgb(255,255,255);
+	top:1098px;
+	left: 878px;
+	transform: rotate(90deg);
+}
+
+.search {
+	position: absolute;
+	top: 1250px; 
+	left:320px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.john {
+	position: absolute;
+	background-image: url(john.png);
+	background-size: cover;
+	background-position: center;
+	height: 615px;
+	width: 850px;
+	top: 1435px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
 
 
+.aware {
+	position: absolute;
+	top: 2170px; 
+	left:320px;
+	width: 720px;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	font-weight: 200;
+	left: 0;
+	right: 0; 
+	margin: auto 
+}
+
+.struggles {
+	position: absolute;
+	top: 2280px; 
+	left:250px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.struggles1 {
+	position: absolute;
+	top: 2350px; 
+	left:250px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.desire {
+	position: absolute;
+	top: 2620px; 
+	left:780px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.desire1 {
+	position: absolute;
+	top: 2690px; 
+	left:780px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+/*.line15 {
+	position: absolute;
+	width: 5px;
+	height: 220px;
+	background-color: rgb(255,255,255);
+	top:2175px;
+	left: 775px;
+	transform: rotate(90deg);
+}
+
+.line16 {
+	position: absolute;
+	width: 5px;
+	height: 170px;
+	background-color: rgb(255,255,255);
+	top:2282.5px;
+	left: 885px;
+}*/
+
+.struggles2 {
+	position: absolute;
+	background-image: url(struggle.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 2480px; 
+	left: 250px;
+}
+
+.desire2 {
+	position: absolute;
+	background-image: url(desire.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 2860px; 
+	left: 780px;
+}
+
+/*.line17 {
+	position: absolute;
+	width: 5px;
+	height: 405px;
+	background-color: rgb(255,255,255);
+	top:3180px;
+	left: 790px;
+	transform: rotate(90deg);
+}*/
+
+.line18 {
+	position: absolute;
+	width: 5px;
+	height: 560px;
+	background-color: rgb(255,255,255);
+	top:4125px;
+	left: 540px;
+}
+
+.action {
+	position: absolute;
+	top: 3190px; 
+	left:250px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.action1 {
+	position: absolute;
+	top: 3260px; 
+	left:250px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.action2 {
+	position: absolute;
+	background-image: url(action.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 3430px; 
+	left: 250px;
+}
+
+
+.box4 {
+	position: absolute;
+	top: 2150px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+  border: 7px;
+  padding: 20px; 
+  width: 980px;
+  height: 50px;
+  border-color: rgb(255,255,255); 
+  border-style: solid;
+}
+
+.line19 {
+	position: absolute;
+	width: 5px;
+	height: 155px;
+	background-color: rgb(255,255,255);
+	top:610px;
+	left: 1050px;
+}
+
+.what {
+	position: absolute;
+	top: 4070px; 
+	left: 995px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.focus {
+	position: absolute;
+	background-image: url(focus.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 650px;
+	height: 550px;
+	top: 4230px; 
+	left: 620px;
+}
+
+.line20 {
+	position: absolute;
+	width: 5px;
+	height: 420px;
+	background-color: rgb(255,255,255);
+	top:3915px;
+	left: 750px;
+	transform: rotate(90deg);
+}
+
+.nothing {
+	position: absolute;
+	top: 4710px; 
+	left: 295px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.renewal {
+	position: absolute;
+	top: 5070px; 
+	left:320px;
+	width: 1020px;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	text-align: center;
+	font-weight: 400;
+	left: 0;
+	right: 0; 
+	margin: auto 
+}
+
+.pouring {
+	position: absolute;
+	background-image: url(pouring.png);
+	background-size: cover;
+	background-position: center;
+	height: 925px;
+	width: 700px;
+	top: 5335px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.john416 {
+	position: absolute;
+	top: 3040px; 
+	left: 575px;
+	font-family: Helvetica Neue; 
+	font-size: 20px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.john420 {
+	position: absolute;
+	top: 3420px; 
+	left: 1105px;
+	font-family: Helvetica Neue; 
+	font-size: 20px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.inspo2 {
+	position: absolute;
+	top: 6300px; 
+	left:0px;
+	right: 0px;
+	margin: auto;
+	width: 500px;
+	height: 80px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 800;
+}
