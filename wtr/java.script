@@ -1,0 +1,3 @@
+$(“.myBox”).hover(function() {
+  $(this).addClass(“light-up”);
+});

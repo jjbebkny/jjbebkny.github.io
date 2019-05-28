@@ -1,0 +1,2941 @@
+.background {
+	top: 0;
+	left:-2vw;
+	width: 105vw;
+ 	height: 100vh;
+	position: fixed;
+	background-image: url("fawbg.png");
+	background-position: center; 
+	background-size: cover;
+	opacity:0.6;
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+}
+
+.bg {
+	top: 0;
+	left:-2vw;
+	width: 105vw;
+ 	height: 100vh;
+	position: fixed;
+	background-image: url("bg.png");
+	background-position: center; 
+	background-size: cover;
+	opacity:0.6;
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+}
+
+/*.background:hover {
+	opacity: 0.5;
+} */
+
+.backdrop {
+	top: 0;
+	left:-2vw;
+	width: 105vw;
+ 	height: 100vh;
+	position: fixed;
+	background-color: rgb(0,0,0);
+	background-position: center; 
+	background-size: cover;
+}
+
+
+.home {
+	position: fixed;
+	top: 80px; 
+	left: : 25px;
+	font-family: Helvetica Neue; 
+	font-size: 25px; 
+	color: white; 
+	font-weight: 200; 
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+} 
+
+.home:hover {
+	top: 70px; 
+	font-size: 35px;
+	font-weight: 400;
+
+}
+
+.blog {
+	position: fixed;
+	top: 140px; 
+	left: : 25px;
+	font-family: Helvetica Neue; 
+	font-size: 25px; 
+	color: white; 
+	font-weight: 200; 
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+}
+
+.blog:hover {
+	top: 130px; 
+	font-size: 35px;
+	font-weight: 400;
+
+}
+
+.experience {
+	position: fixed;
+	top: 200px; 
+	left: : 25px;
+	font-family: Helvetica Neue; 
+	font-size: 25px; 
+	color: white; 
+	font-weight: 200; 
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+}
+
+.experience:hover {
+	top: 190px; 
+	font-size: 35px;
+	font-weight: 400;
+}
+
+
+.step {
+	position: absolute;
+	top: 90px; 
+	left:0;
+	right: 0;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	/*background-color: rgb(90,40,230);*/
+	background-image: url("step.png");
+	background-size: cover; 
+	background-position: center; 
+	opacity: 0.5;
+	border-radius: 32px;
+	cursor: pointer; 
+  	transition: all 0.25s ease-in-out;
+
+}
+
+.step:hover {
+	opacity: .7;
+}
+
+.one { 
+	position: absolute;
+	top: 170px;
+	width: 180px; 
+	left:0;
+	right: 0;
+	margin: auto;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	font-weight: 400; 
+
+}
+
+
+.receive {
+	position: absolute;
+	top: 380px; 
+	left:0px;
+	right: 0px;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-image: url("receive.png");
+	background-size: cover; 
+	opacity: 0.5;
+	border-radius: 20px;
+	cursor: pointer; 
+  	transition: all 0.25s ease-in-out;
+}
+
+.receive:hover {
+	opacity: .7;
+}
+
+.two {
+	position: absolute;
+	top: 475px; 
+	left:0px;
+	width: 450px;
+	right: 0px;
+	margin: auto;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	font-weight: 400; 
+}
+
+.pour {
+	position: absolute;
+	top: 700px; 
+	left:0px;
+	right:0px;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	/*background-color: rgb(90,40,230);*/
+	background-image: url("pour.png");
+	background-size: cover; 
+	background-position: center;
+	opacity: 0.5;
+	border-radius: 20px;
+	cursor: pointer; 
+  	transition: all 0.25s ease-in-out;
+
+}
+
+.pour:hover {
+	opacity: .7;
+
+}
+
+.three {
+	position: absolute;
+	top: 770px; 
+	width:280;
+	left:0px;
+	right: 0px;
+	margin: auto;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	font-weight: 400; 
+}
+
+
+.city {
+	position: absolute;
+	background-image: url(city.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 350px;
+	top: 90px; 
+	left: 200px;
+
+}
+
+.box1 {
+	position: absolute;
+	top: 260px; 
+	left: 680px;
+  border: 5px;
+  padding: 20px; 
+  width: 280px;
+  height: 210px;
+  border-color: rgb(255,255,255); 
+  border-style: solid;
+}
+
+.sent {
+	position: absolute;
+	top: 280px; 
+	left:720px;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	font-weight: 400; 
+}
+
+.line1 {
+	position: absolute;
+	width: 5px;
+	height: 80px;
+	background-color: rgb(255,255,255);
+	top:520px;
+	left: 840px;
+
+}
+
+.line2 {
+	position: absolute;
+	width: 5px;
+	height: 440px;
+	background-color: rgb(255,255,255);
+	top:378px;
+	left: 622px;
+	transform: rotate(90deg);
+}
+
+.line3 {
+	position: absolute;
+	width: 5px;
+	height: 80px;
+	background-color: rgb(255,255,255);
+	top:596px;
+	left: 404px;
+}
+
+.mind {
+	position: absolute;
+	top: 680px; 
+	left:280px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.line4 {
+	position: absolute;
+	width: 5px;
+	height: 440px;
+	background-color: rgb(255,255,255);
+	top:845px;
+	left: 404px;
+}
+
+.walk {
+	position: absolute;
+	background-image: url(walk.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 680px; 
+	left: 680px;
+} 
+
+.line5 {
+	position: absolute;
+	width: 5px;
+	height: 300px;
+	background-color: rgb(255,255,255);
+	top:1133px;
+	left: 552px;
+	transform: rotate(90deg);
+}
+
+.so {
+	position: absolute;
+	top:1260px;
+	left:720px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.save {
+	position: absolute;
+	top: 1540px; 
+	left:310px;
+	font-family: Helvetica Neue; 
+	font-size: 105px; 
+	color: white; 
+	font-weight: 400; 
+}
+
+.box2 {
+	position: absolute;
+	top: 1520px; 
+	left: 190px;
+  border: 7px;
+  padding: 20px; 
+  width: 980px;
+  height: 120px;
+  border-color: rgb(255,255,255); 
+  border-style: solid;
+} 
+
+.call {
+	     position: absolute;
+	top: 1710px; 
+	left:234px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.doubt {
+	position: absolute;
+	background-image: url(doubt.png);
+	background-size: cover;
+	background-position: center;
+	width: 600px;
+	height: 550px;
+	top: 1780px; 
+	left: 200px;
+}
+
+
+.line6 {
+	position: absolute;
+	width: 5px;
+	height: 300px;
+	background-color: rgb(255,255,255);
+	top:1820px;
+	left: 860px;
+	transform: rotate(90deg);
+}
+
+.line7 {
+	position: absolute;
+	width: 5px;
+	height: 240px;
+	background-color: rgb(255,255,255);
+	top:1968px;
+	left: 1008px;
+}
+
+.why {
+	position: absolute;
+	top: 2210px; 
+	left:975px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 200;
+} 
+
+.line8 {
+	position: absolute;
+	width: 5px;
+	height: 102px;
+	background-color: rgb(255,255,255);
+	top:2340px;
+	left: 1008px;
+}
+
+.line9 {
+	position: absolute;
+	width: 5px;
+	height: 300px;
+	background-color: rgb(255,255,255);
+	top:2290px;
+	left: 860px;
+	transform: rotate(90deg);
+}
+
+.psalm {
+	position: absolute;
+	top: 2400px; 
+	left:300px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.four {
+	position: absolute;
+	background-image: url(psalm.png);
+	background-size: cover;
+	background-position: center;
+	width: 800px;
+	height: 600px;
+	top: 2500px; 
+	left: 570px;
+}
+
+.line10 {
+	position: absolute;
+	width: 5px;
+	height: 590px;
+	background-color: rgb(255,255,255);
+	top:2555px;
+	left: 404px;
+} 
+
+.now {
+	position: absolute;
+	top: 3170px; 
+	left:300px;
+	font-family: Helvetica Neue; 
+	font-size: 50px; 
+	color: white; 
+	font-weight: 200;
+
+}
+
+.issueone {
+	position: absolute;
+	background-image: url(issueone.png);
+	background-size: cover;
+	background-position: center;
+	width: 960px;
+	height: 650px;
+	top: 3480px; 
+	left: 210px;
+}
+
+
+.paris1 {
+	position: absolute;
+	background-image: url(paris1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 90px; 
+	left: 0px;
+	right:0px;
+	margin: auto;
+} 
+
+.layer {
+	position: absolute;
+	background-image: url(layer.png);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 90px;
+	left: 0px;
+	right:0px;
+	margin: auto;
+	opacity:0.0;
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+}
+
+.layer:hover {
+	opacity: 0.6
+
+}
+
+.rome1 {
+	position: absolute;
+	background-image: url(vatican.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 590px; 
+	left: 0px;
+	right:0px;
+	margin: auto;
+}
+
+.layer2 {
+	position: absolute;
+	background-image: url(layer2.png);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 590px;
+	left: 0px;
+	right:0px;
+	margin: auto;
+	opacity:0.0;
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+}
+
+.layer2:hover {
+	opacity: 0.6
+}
+
+
+.cvrprs {
+	position: absolute;
+	background-image: url(cvrprs.png);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 450px;
+	top: 180px; 
+	left: 340px;
+}
+
+
+.streetart {
+	position: absolute;
+	background-image: url(wots.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 450px;
+	top: 180px; 
+	left: 780px;
+}
+
+.architecture{
+	position: absolute;
+	background-image: url(arch.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 450px;
+	top: 180px; 
+	left: 340px;
+}
+
+.eternal {
+	position: absolute;
+	background-image: url(eternal.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 450px;
+	top: 180px; 
+	left: 780px;
+}
+
+.inspo1 {
+	position: absolute;
+	top: 4180px; 
+	left:0px;
+	right: 0px;
+	margin: auto;
+	width: 500px;
+	height: 80px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 800;
+
+}
+
+.panel {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 7900px; 
+	background-color: rgb(255,255,255);
+
+}
+
+.pigalle {
+	position: absolute;
+	background-image: url(pigalle.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 550px;
+	top: 200px; 
+	left: 305px;
+}
+
+.court {
+	position: absolute;
+	top: 280px; 
+	left:840px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.pigalle2 {
+	position: absolute;
+	background-image: url(pigalle2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 500px;
+	top: 780px; 
+	left: 305px;
+}
+
+.pigalle3 {
+	position: absolute;
+	background-image: url(pigalle3.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 600px;
+	top: 550px; 
+	left: 740px;
+}
+
+.spray {
+	position: absolute;
+	top: 1195px; 
+	left:840px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.quesh {
+	position: absolute;
+	background-image: url(quesh.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 400px;
+	top: 1315px; 
+	left: 305px;
+	transform: rotate(180deg);
+
+}
+
+.mrcube {
+	position: absolute;
+	background-image: url(mrcube.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 635px;
+	height: 400px;
+	top: 1430px; 
+	left: 625px;
+	transform: rotate(90deg);
+}
+
+.safer {
+	position: absolute;
+	background-image: url(safer.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 1700px; 
+	left: 305px;
+	/*transform: rotate(180deg);*/
+}
+
+.jesus {
+	position: absolute;
+	background-image: url(jesus.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 825px;
+	top: 1980px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.warz {
+	position: absolute;
+	background-image: url(warz.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 400px;
+	top: 2615px; 
+	left: 305px;
+}
+
+.shhh {
+	position: absolute;
+	background-image: url(shhh.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 635px;
+	top: 2615px; 
+	left: 735px;
+}
+
+.boog {
+	position: absolute;
+	background-image: url(boog.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 3000px; 
+	left: 305px;
+}
+
+.art {
+	position: absolute;
+	top: 3280px; 
+	left:380px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.stoop {
+	position: absolute;
+	background-image: url(stoop.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 400px;
+	top: 3385px; 
+	left: 305px;
+}
+
+.run {
+	position: absolute;
+	background-image: url(run.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 630px;
+	height: 400px;
+	top: 3500px; 
+	left: 625px;
+	transform: rotate(90deg);
+}
+
+.renmen {
+	position: absolute;
+	background-image: url(renmen1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 3765px; 
+	left: 305px;
+}
+
+.gunpeace {
+	position: absolute;
+	background-image: url(gunpeace.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 400px;
+	top: 4050px; 
+	left: 740px;
+}
+
+.bansky {
+	position: absolute;
+	background-image: url(bansky.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 400px;
+	top: 4385px; 
+	left: 740px;
+}
+
+.moon {
+	position: absolute;
+	background-image: url(moon.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 635px;
+	top: 4050px; 
+	left: 305px;
+}
+
+.mj {
+	position: absolute;
+	background-image: url(mjstreet.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 825px;
+	top: 4715px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.streets {
+	position: absolute;
+	top: 5250px; 
+	left:380px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.signs {
+	position: absolute;
+	background-image: url(signs.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 635px;
+	top: 5355px; 
+	left: 735px;
+}
+
+.stickers {
+	position: absolute;
+	background-image: url(stickers.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 400px;
+	top: 5355px; 
+	left: 305px;
+}
+
+.stickers2 {
+	position: absolute;
+	background-image: url(stickers2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 400px;
+	height: 635px;
+	top: 5685px; 
+	left: 305px;
+}
+
+.rainstick {
+	position: absolute;
+	background-image: url(rainstick.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 6015px; 
+	left: 735px;
+}
+
+.stickers3 {
+	position: absolute;
+	background-image: url(stickers3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 6295px; 
+	left: 305px;
+}
+
+.paintpoles {
+	position: absolute;
+	background-image: url(paintpoles.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+	width: 400px;
+	top: 6580px; 
+	left: 735px;
+}
+
+.red {
+	position: absolute;
+	background-image: url(red.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 560px;
+	top: 6580px; 
+	left: 305px;
+	
+}
+
+.lion {
+	position: absolute;
+	background-image: url(lion.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	top: 6295px; 
+	left: 735px;
+}
+
+
+.feet2 {
+	position: absolute;
+	background-image: url(feet2.png);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	width: 625px;
+	top: 7215px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.backbox {
+	position: fixed;
+	top: 30px;
+	right: 20px;
+	width: 80px;
+	height: 40px; 
+	background-color: rgb(255,255,255);
+	cursor: pointer;
+}
+
+.back {
+	position: fixed;
+	top: 35px; 
+	right:30px;
+	font-family: Helvetica Neue; 
+	font-size: 25px; 
+	color: black; 
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.panel1 {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 2760px; 
+	background-color: rgb(255,255,255);
+
+}
+
+.lourvew {
+	position: absolute;
+	top: 530px; 
+	left:-80px;
+	font-family: Helvetica Neue; 
+	font-size: 230px; 
+	color: black; 
+	font-weight: 800;
+	cursor: pointer;
+	transform: rotate(270deg);
+
+}
+
+.pyramid {
+	position: absolute;
+	background-image: url(pyramid.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	width: 600px;
+	top: 210px; 
+	left: 535px;
+}
+
+.clouds {
+	position: absolute;
+	background-image: url(clouds.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	width: 600px;
+	top: 680px; 
+	left: 535px;
+}
+
+.lourve {
+	position: absolute;
+	background-image: url(lourve.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 1160px; 
+	left: 305px;
+}
+
+.sculpture {
+	position: absolute;
+	background-image: url(sculpture.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 1160px; 
+	left: 735px;
+}
+
+.paris {
+	position: absolute;
+	background-image: url(paris.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 1150px;
+	width: 800px;
+	top: 1750px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.panel1 {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 2760px; 
+	background-color: rgb(255,255,255);
+
+}
+
+.panel2 {
+	position: absolute;
+	top: 3040px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 2760px; 
+	background-color: rgb(255,255,255);
+}
+
+.panel3 {
+	position: absolute;
+	top: 5910px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 2120px; 
+	background-color: rgb(255,255,255);
+}
+
+.versaille { 
+	position: absolute;
+	top: 3180px; 
+	left:740px;
+	font-family: Helvetica Neue; 
+	font-size: 80px; 
+	color: black; 
+	font-weight: 800;
+	text-align: left;
+
+}
+
+.gate {
+	position: absolute;
+	background-image: url(gate.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 400px;
+	top: 3090px; 
+	left: 305px;
+}
+
+.castle {
+	position: absolute;
+	background-image: url(castle.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 825px;
+	top: 3520px; 
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+}
+
+
+.palace2{
+	position: absolute;
+	background-image: url(palace2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 450px;
+	top: 4095px; 
+	left: 305px;
+}
+
+.mother {
+	position: absolute;
+	background-image: url(mother.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 450px;
+	top: 4320px; 
+	left: 305px;
+}
+
+.palace {
+	position: absolute;
+	background-image: url(palace.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 540px;
+	width: 365px;
+	top: 4095px; 
+	left: 775px;
+}
+
+.light {
+	position: absolute;
+	background-image: url(light.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 590px;
+	width: 365px;
+	top: 4595px; 
+	left: 305px;
+}
+
+.foutain {
+	position: absolute;
+	background-image: url(foutain.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 230px;
+	width: 450px;
+	top: 4660px; 
+	left: 690px;
+}
+
+.clock {
+	position: absolute;
+	background-image: url(clock.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 270px;
+	width: 450px;
+	top: 4915px; 
+	left: 690px;
+}
+
+.hallway {
+	position: absolute;
+	background-image: url(hallway.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 5210px; 
+	left: 305px;
+}
+
+.statue2 {
+	position: absolute;
+	background-image: url(statue2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 5210px; 
+	left: 735px;
+}
+
+.blue {
+	position: absolute;
+	top: 6060px; 
+	left:850px;
+	font-family: Helvetica Neue; 
+	font-size: 80px; 
+	color: black; 
+	font-weight: 800;
+	text-align: left;
+}
+
+.flag {
+	position: absolute;
+	background-image: url(flag.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 500px;
+	top: 5950px; 
+	left: 305px;
+}
+
+.sky {
+	position: absolute;
+	background-image: url(sky.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 6380px; 
+	left: 305px;
+}
+
+.eiffle {
+	position: absolute;
+	background-image: url(eiffle.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 6380px; 
+	left: 735px;
+}
+
+.gold {
+	position: absolute;
+	background-image: url(gold.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	width: 820px;
+	top: 6960px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.birdy {
+	position: absolute;
+	background-image: url(birdy.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 7440px; 
+	left: 305px;
+}
+
+
+.sacred {
+	position: absolute;
+	background-image: url(sacredheart.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: 400px;
+	top: 7440px; 
+	left: 735px;
+}
+
+.entrance {
+	position: absolute;
+	background-image: url(entrance.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 550px;
+	height: 385px;
+	top: 90px; 
+	left: 615px;
+}
+
+.box3 {
+	position: absolute;
+	top: 290px; 
+	left: 320px;
+  border: 5px;
+  padding: 20px; 
+  width: 270px;
+  height: 190px;
+  border-color: rgb(255,255,255); 
+  border-style: solid;
+}
+
+.arrived {
+	position: absolute;
+	top: 320px; 
+	left:345px;
+	font-family: Helvetica Neue; 
+	font-size: 45px;
+	text-align: right; 
+	color: white; 
+	font-weight: 400;
+}
+
+.line11 {
+	position: absolute;
+	width: 5px;
+	height: 80px;
+	background-color: rgb(255,255,255);
+	top:530px;
+	left: 450px;
+}
+
+.line12 {
+	position: absolute;
+	width: 5px;
+	height: 605px;
+	background-color: rgb(255,255,255);
+	top:310px;
+	left: 750px;
+	transform: rotate(90deg);
+}
+
+.thirst {
+	position: absolute;
+	top: 790px; 
+	left:880px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.quench {
+	position: absolute;
+	background-image: url(drip2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 680px; 
+	left: 400px;
+}
+
+
+.line13 {
+	position: absolute;
+	width: 5px;
+	height: 345px;
+	background-color: rgb(255,255,255);
+	top:925px;
+	left: 1050px;
+}
+
+.line14 {
+	position: absolute;
+	width: 5px;
+	height: 340px;
+	background-color: rgb(255,255,255);
+	top:1098px;
+	left: 878px;
+	transform: rotate(90deg);
+}
+
+.search {
+	position: absolute;
+	top: 1250px; 
+	left:320px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.john {
+	position: absolute;
+	background-image: url(john.png);
+	background-size: cover;
+	background-position: center;
+	height: 615px;
+	width: 850px;
+	top: 1435px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.aware {
+	position: absolute;
+	top: 2170px; 
+	left:320px;
+	width: 720px;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	font-weight: 200;
+	left: 0;
+	right: 0; 
+	margin: auto 
+}
+
+.struggles {
+	position: absolute;
+	top: 2280px; 
+	left:250px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.struggles1 {
+	position: absolute;
+	top: 2350px; 
+	left:250px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.desire {
+	position: absolute;
+	top: 2620px; 
+	left:780px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.desire1 {
+	position: absolute;
+	top: 2690px; 
+	left:780px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+/*.line15 {
+	position: absolute;
+	width: 5px;
+	height: 220px;
+	background-color: rgb(255,255,255);
+	top:2175px;
+	left: 775px;
+	transform: rotate(90deg);
+}
+
+.line16 {
+	position: absolute;
+	width: 5px;
+	height: 170px;
+	background-color: rgb(255,255,255);
+	top:2282.5px;
+	left: 885px;
+}*/
+
+.struggles2 {
+	position: absolute;
+	background-image: url(struggle.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 2480px; 
+	left: 250px;
+}
+
+.desire2 {
+	position: absolute;
+	background-image: url(desire.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 2860px; 
+	left: 780px;
+}
+
+/*.line17 {
+	position: absolute;
+	width: 5px;
+	height: 405px;
+	background-color: rgb(255,255,255);
+	top:3180px;
+	left: 790px;
+	transform: rotate(90deg);
+}*/
+
+.line18 {
+	position: absolute;
+	width: 5px;
+	height: 560px;
+	background-color: rgb(255,255,255);
+	top:4125px;
+	left: 540px;
+}
+
+.action {
+	position: absolute;
+	top: 3190px; 
+	left:250px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.action1 {
+	position: absolute;
+	top: 3260px; 
+	left:250px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.action2 {
+	position: absolute;
+	background-image: url(action.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 3430px; 
+	left: 250px;
+}
+
+
+.box4 {
+	position: absolute;
+	top: 2150px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+  border: 7px;
+  padding: 20px; 
+  width: 980px;
+  height: 50px;
+  border-color: rgb(255,255,255); 
+  border-style: solid;
+}
+
+.line19 {
+	position: absolute;
+	width: 5px;
+	height: 155px;
+	background-color: rgb(255,255,255);
+	top:610px;
+	left: 1050px;
+}
+
+.what {
+	position: absolute;
+	top: 4070px; 
+	left: 995px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.focus {
+	position: absolute;
+	background-image: url(focus.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 650px;
+	height: 550px;
+	top: 4230px; 
+	left: 620px;
+}
+
+.line20 {
+	position: absolute;
+	width: 5px;
+	height: 420px;
+	background-color: rgb(255,255,255);
+	top:3915px;
+	left: 750px;
+	transform: rotate(90deg);
+}
+
+.nothing {
+	position: absolute;
+	top: 4710px; 
+	left: 295px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.renewal {
+	position: absolute;
+	top: 5070px; 
+	left:320px;
+	width: 1020px;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	text-align: center;
+	font-weight: 400;
+	left: 0;
+	right: 0; 
+	margin: auto 
+}
+
+.pouring {
+	position: absolute;
+	background-image: url(pouring.png);
+	background-size: cover;
+	background-position: center;
+	height: 925px;
+	width: 700px;
+	top: 5335px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.john416 {
+	position: absolute;
+	top: 3040px; 
+	left: 575px;
+	font-family: Helvetica Neue; 
+	font-size: 20px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.john420 {
+	position: absolute;
+	top: 3420px; 
+	left: 1105px;
+	font-family: Helvetica Neue; 
+	font-size: 20px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.inspo2 {
+	position: absolute;
+	top: 6300px; 
+	left:0px;
+	right: 0px;
+	margin: auto;
+	width: 500px;
+	height: 80px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 800;
+}
+
+.panelarch {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 12300px; 
+	background-color: rgb(255,255,255);
+}
+
+
+.arch {
+	position: absolute;
+	top: 200px; 
+	left:0px;
+	right: 0px;
+	margin: auto;
+	width: 865px;
+	height: 80px;
+	font-family: Helvetica Neue; 
+	font-size: 110px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.cityscape {
+	position: absolute;
+	background-image: url(cityscape.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 525px;
+	width: 805px;
+	top: 355px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.ruins {
+ 	position: absolute;
+	top: 980px; 
+	left:840px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.ruin {
+	position: absolute;
+	background-image: url(ruin.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 550px;
+	top: 910px; 
+	left: 300px;
+}
+
+.hebrew {
+	position: absolute;
+	background-image: url(hebrewpost.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 650px;
+	top: 1110px; 
+	left: 720px;
+
+}
+
+.arcc {
+	position: absolute;
+	background-image: url(arcc.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 1780px; 
+	left: 720px;
+}
+
+.colloseum {
+	position: absolute;
+	background-image: url(colloseum.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 300px;
+	top: 1480px; 
+	left: 300px;
+}
+
+.coloss {
+	position: absolute;
+	background-image: url(coloss.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 300px;
+	top: 1800px; 
+	left: 300px;
+}
+
+.detail {
+	position: absolute;
+	background-image: url(detail.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 330px;
+	top: 2120px; 
+	left: 300px;
+}
+
+.forum {
+	position: absolute;
+	background-image: url(forum.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 670px;
+	width: 805px;
+	top: 2475px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.vatican {
+	position: absolute;
+	top: 3220px; 
+	left:340px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.vatican2 {
+	position: absolute;
+	background-image: url(vatican.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 525px;
+	width: 805px;
+	top: 5295px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.cloudy {
+	position: absolute;
+	background-image: url(cloudy.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 410px;
+	height: 330px;
+	top: 3320px; 
+	left: 300px;
+}
+
+.basilica {
+	position: absolute;
+	background-image: url(basilica.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 525px;
+	width: 805px;
+	top: 4745px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.maderno {
+	position: absolute;
+	background-image: url(maderno.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 3320px; 
+	left: 720px;
+}
+
+
+.goldroof {
+	position: absolute;
+	background-image: url(goldroof.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 600px;
+	top: 3670px; 
+	left: 300px;
+}
+
+.pediment {
+	position: absolute;
+	background-image: url(pediment.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 330px;
+	top: 3940px; 
+	left: 720px;
+}
+.metal {
+	position: absolute;
+	background-image: url(metal.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 430px;
+	top: 4290px; 
+	left: 300px;
+}
+
+.time {
+	position: absolute;
+	background-image: url(time.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 430px;
+	top: 4290px; 
+	left: 720px;
+}
+
+
+.hood {
+	position: absolute;
+	top: 5900px; 
+	left:720px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+	text-align: right;
+}
+
+.angelo {
+	position: absolute;
+	background-image: url(angelo.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 530px;
+	height: 430px;
+	top: 6060px; 
+	left: 300px;
+}
+
+
+.terrace {
+	position: absolute;
+	background-image: url(terrace.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 6510px; 
+	left: 300px;
+}
+
+
+.balconyrome {
+	position: absolute;
+	background-image: url(balconyrome.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 300px;
+	top: 6510px; 
+	left: 720px;
+}
+
+
+.greendoor {
+	position: absolute;
+	background-image: url(greendoor.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 6830px; 
+	left: 720px;
+}
+
+.school {
+	position: absolute;
+	background-image: url(school.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 7130px; 
+	left: 300px;
+}
+
+
+.glass {
+	position: absolute;
+	background-image: url(glass.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 7450px; 
+	left: 720px;
+}
+
+.greenery {
+	position: absolute;
+	background-image: url(greenery.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 300px;
+	top: 7750px; 
+	left: 300px;
+}
+
+.churchy {
+	position: absolute;
+	background-image: url(churchy.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 300px;
+	top: 8070px; 
+	left: 300px;
+}
+
+.up {
+	position: absolute;
+	background-image: url(up.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 300px;
+	top: 8070px; 
+	left: 720px;
+}
+
+
+.church {
+	position: absolute;
+	background-image: url(church.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 300px;
+	top: 8390px; 
+	left: 300px;
+}
+
+.trevi2 {
+	position: absolute;
+	background-image: url(trevi2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 300px;
+	top: 8390px; 
+	left: 720px;
+}
+
+
+.statue {
+	position: absolute;
+	top: 8780px; 
+	left:340px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.milly {
+	position: absolute;
+	background-image: url(milly.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 580px;
+	top: 8880px; 
+	left: 300px;
+}
+
+.momajesu{
+	position: absolute;
+	background-image: url(momajesu.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 580px;
+	top: 8880px; 
+	left: 720px;
+}
+
+.guardian {
+	position: absolute;
+	background-image: url(guardian.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 580px;
+	top: 9480px; 
+	left: 300px;
+}
+
+.romulus {
+	position: absolute;
+	background-image: url(romulus.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 580px;
+	top: 9480px; 
+	left: 720px;
+}
+
+.peter {
+	position: absolute;
+	background-image: url(peter.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 580px;
+	top: 10080px; 
+	left: 300px;
+}
+
+.ceasar {
+	position: absolute;
+	background-image: url(ceasar.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 580px;
+	top: 10080px; 
+	left: 720px;
+}
+
+.romesea {
+	position: absolute;
+	background-image: url(rome1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 525px;
+	width: 805px;
+	top: 10680px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.broken {
+	position: absolute;
+	background-image: url(broken.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 585px;
+	width: 805px;
+	top: 11230px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.newnew {
+	position: absolute;
+	background-image: url(newnew.png);
+	background-size: cover;
+	background-position: center;
+	height: 585px;
+	width: 805px;
+	top: 11840px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+
+.panelcity {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 7240px; 
+	background-color: rgb(255,255,255);
+}
+
+.graffiti {
+	position: absolute;
+	top: 530px; 
+	left:600px;
+	font-family: Helvetica Neue; 
+	font-size: 200px; 
+	color: black; 
+	font-weight: 800;
+	cursor: pointer;
+	transform: rotate(90deg);
+}
+
+
+.creature {
+	position: absolute;
+	background-image: url(creature.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 620px;
+	height: 410px;
+	top: 230px; 
+	left: 320px;
+}
+
+.much {
+	position: absolute;
+	background-image: url(2much.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 620px;
+	height: 410px;
+	top: 680px; 
+	left: 320px;
+}
+
+.bm {
+	position: absolute;
+	background-image: url(bm.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 330px;
+	top: 1120px; 
+	left: 320px;
+}
+
+.buddy {
+	position: absolute;
+	background-image: url(buddy.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 330px;
+	top: 1120px; 
+	left: 730px;
+}
+
+.convo {
+	position: absolute;
+	background-image: url(convo.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 485px;
+	width: 805px;
+	top: 1480px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.bboy {
+	position: absolute;
+	background-image: url(bboy.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 1995px; 
+	left: 320px;
+}
+
+.spray {
+	position: absolute;
+	background-image: url(spray.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 1995px; 
+	left: 730px;
+}
+
+.brodie {
+	position: absolute;
+	background-image: url(brodie.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 330px;
+	top: 2620px; 
+	left: 320px;
+}
+
+.wall3 {
+	position: absolute;
+	background-image: url(wall3.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 330px;
+	top: 2620px; 
+	left: 730px;
+}
+
+.exit {
+	position: absolute;
+	background-image: url(exit.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 2970px; 
+	left: 320px;
+}
+
+
+.brain {
+	position: absolute;
+	background-image: url(brain.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 2970px; 
+	left: 730px;
+}
+
+.michellin {
+	position: absolute;
+	background-image: url(michellin.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 3590px; 
+	left: 320px;
+}
+
+.worker {
+	position: absolute;
+	background-image: url(worker.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 3590px; 
+	left: 730px;
+}
+
+.me {
+	position: absolute;
+	background-image: url(fawgraf.png);
+	background-size: cover;
+	background-position: center;
+	height: 565px;
+	width: 805px;
+	top: 4240px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.views {
+	position: absolute;
+	top: 4880px; 
+	left:340px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+}
+
+.drop {
+	position: absolute;
+	background-image: url(drip2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 5000px; 
+	left: 730px;
+}
+
+.path {
+	position: absolute;
+	background-image: url(path.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 5000px; 
+	left: 320px;
+}
+
+
+.tree {
+	position: absolute;
+	background-image: url(treeing.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 5620px; 
+	left: 320px;
+}
+
+.block {
+	position: absolute;
+	background-image: url(block.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 600px;
+	top: 5620px; 
+	left: 730px;
+}
+
+.skies {
+	position: absolute;
+	background-image: url(skies.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 805px;
+	top: 6240px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.tiber {
+	position: absolute;
+	background-image: url(tiber.png);
+	background-size: cover;
+	background-position: center;
+	height: 590px;
+	width: 805px;
+	top: 6780px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.road {
+	position: absolute;
+	background-image: url(road.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 540px;
+	height: 380px;
+	top: 90px; 
+	left: 300px;
+}
+
+.boxroad {
+	position: absolute;
+	top: 440px; 
+	left: 270px;
+  border: 5px;
+  padding: 20px; 
+  width: 280px;
+  height: 160px;
+  border-color: rgb(255,255,255); 
+  border-style: solid;
+}
+
+
+.message {
+	position: absolute;
+	top: 470px; 
+	left:290px;
+	font-family: Helvetica Neue; 
+	font-size: 45px; 
+	color: white; 
+	font-weight: 400; 
+}
+
+
+.stem1 {
+	position: absolute;
+	width: 5px;
+	height: 350px;
+	background-color: rgb(255,255,255);
+	top:620px;
+	left: 605px;
+	transform: rotate(90deg);
+}
+
+.stem2 {
+	position: absolute;
+	width: 5px;
+	height: 150px;
+	background-color: rgb(255,255,255);
+	top:647px;
+	left: 430px;
+}
+
+.embark {
+	position: absolute;
+	top: 740px; 
+	left:810px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.grow {
+	position: absolute;
+	background-image: url(grow.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 600px;
+	top: 900px; 
+	left: 300px;
+}
+
+
+.stem4 {
+	position: absolute;
+	width: 5px;
+	height: 630px;
+	background-color: rgb(255,255,255);
+	top:868px;
+	left: 980px;
+}
+
+.last {
+	position: absolute;
+	top: 1520px; 
+	left:880px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.others1 {
+	position: absolute;
+	top: 1640px; 
+	left:0px;
+	right: 0px;
+	width: 1000px;
+	margin: auto;
+	font-family: Helvetica Neue; 
+	font-size: 105px; 
+	color: white; 
+	font-weight: 800;
+}
+
+.well {
+	position: absolute;
+	top: 1800px; 
+	left:300px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.yellow {
+	position: absolute;
+	background-image: url(yellow.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 1800px; 
+	left: 840px;
+}
+
+.stem5 {
+	position: absolute;
+	width: 5px;
+	height: 480px;
+	background-color: rgb(255,255,255);
+	top:1970px;
+	left: 460px;
+}
+
+.love {
+	position: absolute;
+	top: 2420px; 
+	left:840px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.stem3 {
+	position: absolute;
+	width: 5px;
+	height: 350px;
+	background-color: rgb(255,255,255);
+	top:2275px;
+	left: 635px;
+	transform: rotate(90deg);
+}
+
+.acceptance {
+	position: absolute;
+	background-image: url(acceptance.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 400px;
+	top: 2540px; 
+	left: 260px;
+}
+
+.stem6 {
+	position: absolute;
+	width: 5px;
+	height: 290px;
+	background-color: rgb(255,255,255);
+	top:2550px;
+	left: 960px;
+}
+
+.platform {
+	position: absolute;
+	top: 2870px; 
+	left:840px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.trust1 {
+	position: absolute;
+	top: 3040px; 
+	left:260px;
+	font-family: Helvetica Neue; 
+	font-size: 205px; 
+	color: white; 
+	font-weight: 800;
+}
+
+.trust2 {
+	position: absolute;
+	top: 3100px; 
+	left:360px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+}
+
+.look {
+	position: absolute;
+	background-image: url(look.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 3170px; 
+	left: 400px;
+}
+
+.open1 {
+	position: absolute;
+	top: 3590px; 
+	left:1020px;
+	font-family: Helvetica Neue; 
+	font-size: 205px; 
+	color: white; 
+	font-weight: 800;
+	transform: rotate(90deg);
+}
+
+.open2 {
+	position: absolute;
+	top: 3950px; 
+	left:900px;
+	font-family: Helvetica Neue; 
+	font-size: 30px; 
+	color: white; 
+	font-weight: 200;
+	transform: rotate(90deg);
+}
+
+.sing {
+	position: absolute;
+	background-image: url(sing.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 550px;
+	top: 3660px; 
+	left: 530px;
+}
+
+.testimony1 {
+	position: absolute;
+	top: 4180px; 
+	left:260px;
+	font-family: Helvetica Neue; 
+	font-size: 205px; 
+	color: white; 
+	font-weight: 800;
+	transform: rotate(270deg);
+}
+
+.testimony2 {
+	position: absolute;
+	top: 4580px; 
+	left:80px;
+	font-family: Helvetica Neue; 
+	font-size: 30px;
+	/*text-align: right;*/ 
+	color: white; 
+	font-weight: 200;
+	transform: rotate(270deg);
+}
+
+.life {
+	position: absolute;
+	background-image: url(life.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 800px;
+	height: 470px;
+	top: 4370px; 
+	left: 380px;
+}
+
+
+.perla {
+	position: absolute;
+	background-image: url(perla.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 300px;
+	top: 5000px; 
+	left: 180px;
+}
+
+.kayla {
+	position: absolute;
+	background-image: url(kayla.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 400px;
+	top: 5080px; 
+	left: 580px;
+}
+
+.frank {
+	position: absolute;
+	background-image: url(frank.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 350px;
+	top: 5030px; 
+	left: 720px;
+}
+
+.joasha {
+	position: absolute;
+	background-image: url(joasha.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 400px;
+	top: 5240px; 
+	left: 260px;
+}
+
+.kirsten {
+	position: absolute;
+	background-image: url(kirsten.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 350px;
+	top: 5330px; 
+	left: 840px;
+}
+
+.clara {
+	position: absolute;
+	background-image: url(clara.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 300px;
+	top: 5530px; 
+	left: 150px;
+}
+
+.parents {
+	position: absolute;
+	background-image: url(parents.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 550px;
+	top: 5770px; 
+	left: 640px;
+}
+
+.twins {
+	position: absolute;
+	background-image: url(twins.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 370px;
+	top: 5470px; 
+	left: 515px;
+}
+
+.andrew {
+	position: absolute;
+	background-image: url(andrew.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 400px;
+	top: 5640px; 
+	left: 820px;
+}
+
+.sandra {
+	position: absolute;
+	background-image: url(sandra.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 400px;
+	top: 5800px; 
+	left: 220px;
+}
+
+.chichi {
+	position: absolute;
+	background-image: url(chichi.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 350px;
+	top: 5720px; 
+	left: 1080px;
+}
+
+.adenim {
+	position: absolute;
+	background-image: url(adenim.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 300px;
+	top: 6000px; 
+	left: 980px;
+}
+
+.kimbo {
+	position: absolute;
+	background-image: url(kimbo2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 6040px; 
+	left: 160px;
+}
+
+
+.rec {
+	position: absolute;
+	width: 500px;
+	height: 780px;
+	background-color: rgb(0,0,0);
+	top:5260px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	opacity: .5;
+}
+
+.testimony3 {
+	position: absolute;
+	font-family: Helvetica Neue; 
+	font-size: 100px; 
+	color: white;
+	text-align: center;
+	width: 500px;
+	font-weight: 200;
+	top:5280px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+
+}
+
+.prayer1 {
+	position: absolute;
+	top: 6500px; 
+	left:240px;
+	font-family: Helvetica Neue; 
+	font-size: 65px; 
+	color: white; 
+	font-weight: 800;
+}
+
+.prayer2 {
+	position: absolute;
+	top: 6600px; 
+	left:300px;
+	width: 1020px;
+	font-family: Helvetica Neue; 
+	font-size: 70px; 
+	color: white; 
+	text-align: left;
+	font-weight: 200;
+}
+
+.final2 {
+	position: absolute;
+	background-image: url(final2.png);
+	background-size: cover;
+	background-position: center;
+	height: 630px;
+	width: 850px;
+	top:7140px;
+	right: 0px;
+	left: 0px;
+	margin: auto; 
+
+}
+
+.inspo3 {
+	position: absolute;
+	top: 7800px; 
+	left:0px;
+	right: 0px;
+	margin: auto;
+	width: 450px;
+	height: 80px;
+	font-family: Helvetica Neue; 
+	font-size: 35px; 
+	color: white; 
+	font-weight: 800;
+}
