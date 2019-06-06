@@ -26,9 +26,26 @@
   	transition: all .25s ease-in-out;
 }
 
+
 /*.background:hover {
 	opacity: 0.5;
 } */
+
+.faw {
+	position: fixed;
+	background-image: url(fine.png);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	width: 860px;
+	top: -80px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	opacity:0.8;  	
+}
+
+
 
 .backdrop {
 	top: 0;
@@ -533,6 +550,48 @@
 	opacity: 0.6
 }
 
+.limerick1 {
+	position: absolute;
+	background-image: url(lictree.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 1090px; 
+	left: 0px;
+	right:0px;
+	margin: auto;
+}
+
+.layer3 {
+	position: absolute;
+	background-image: url(layer3.png);
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 400px;
+	top: 1090px;
+	left: 0px;
+	right:0px;
+	margin: auto;
+	opacity:0.0;
+	cursor: pointer; 
+  	transition: all .25s ease-in-out;
+}
+
+.layer3:hover {
+	opacity: 0.6
+}
+
+.empty {
+	position: absolute;
+	width: 5px;
+	height: 190px;
+	background-color: rgb(255,255,255);
+	top:1555px;
+	left: 404px;
+	opacity: 0.0;
+}
 
 .cvrprs {
 	position: absolute;
@@ -577,6 +636,19 @@
 	height: 450px;
 	top: 180px; 
 	left: 780px;
+}
+
+.color {
+	position: absolute;
+	background-image: url(lic.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 350px;
+	height: 450px;
+	top: 180px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
 }
 
 .inspo1 {
@@ -1688,7 +1760,7 @@
 	right: 0px;
 	margin: auto; 
 	width: 900px;
-	height: 12300px; 
+	height: 12200px; 
 	background-color: rgb(255,255,255);
 }
 
@@ -1916,13 +1988,14 @@
 
 .hood {
 	position: absolute;
-	top: 5900px; 
-	left:720px;
+	top: 6040px; 
+	left:800px;
 	font-family: Helvetica Neue; 
 	font-size: 55px; 
 	color: black; 
 	font-weight: 800;
-	text-align: right;
+	text-align: left;
+	transform: rotate(90deg);
 }
 
 .angelo {
@@ -1932,7 +2005,7 @@
 	background-position: center;
 	width: 530px;
 	height: 430px;
-	top: 6060px; 
+	top: 5930px; 
 	left: 300px;
 }
 
@@ -1944,7 +2017,7 @@
 	background-position: center;
 	width: 390px;
 	height: 600px;
-	top: 6510px; 
+	top: 6380px; 
 	left: 300px;
 }
 
@@ -1956,7 +2029,7 @@
 	background-position: center;
 	width: 390px;
 	height: 300px;
-	top: 6510px; 
+	top: 6380px; 
 	left: 720px;
 }
 
@@ -1968,7 +2041,7 @@
 	background-position: center;
 	width: 390px;
 	height: 600px;
-	top: 6830px; 
+	top: 6700px; 
 	left: 720px;
 }
 
@@ -1979,7 +2052,7 @@
 	background-position: center;
 	width: 390px;
 	height: 600px;
-	top: 7130px; 
+	top: 7000px; 
 	left: 300px;
 }
 
@@ -1991,7 +2064,7 @@
 	background-position: center;
 	width: 390px;
 	height: 600px;
-	top: 7450px; 
+	top: 7320px; 
 	left: 720px;
 }
 
@@ -2002,7 +2075,7 @@
 	background-position: center;
 	width: 390px;
 	height: 300px;
-	top: 7750px; 
+	top: 7620px; 
 	left: 300px;
 }
 
@@ -2013,7 +2086,7 @@
 	background-position: center;
 	width: 390px;
 	height: 300px;
-	top: 8070px; 
+	top: 7940px; 
 	left: 300px;
 }
 
@@ -2024,7 +2097,7 @@
 	background-position: center;
 	width: 390px;
 	height: 300px;
-	top: 8070px; 
+	top: 7940px; 
 	left: 720px;
 }
 
@@ -2036,7 +2109,7 @@
 	background-position: center;
 	width: 390px;
 	height: 300px;
-	top: 8390px; 
+	top: 8260px; 
 	left: 300px;
 }
 
@@ -2047,14 +2120,14 @@
 	background-position: center;
 	width: 390px;
 	height: 300px;
-	top: 8390px; 
+	top: 8260px; 
 	left: 720px;
 }
 
 
 .statue {
 	position: absolute;
-	top: 8780px; 
+	top: 8590px; 
 	left:340px;
 	font-family: Helvetica Neue; 
 	font-size: 55px; 
@@ -2069,7 +2142,7 @@
 	background-position: center;
 	width: 390px;
 	height: 580px;
-	top: 8880px; 
+	top: 8690px; 
 	left: 300px;
 }
 
@@ -2080,7 +2153,7 @@
 	background-position: center;
 	width: 390px;
 	height: 580px;
-	top: 8880px; 
+	top: 8690px; 
 	left: 720px;
 }
 
@@ -2091,7 +2164,7 @@
 	background-position: center;
 	width: 390px;
 	height: 580px;
-	top: 9480px; 
+	top: 9290px; 
 	left: 300px;
 }
 
@@ -2102,7 +2175,7 @@
 	background-position: center;
 	width: 390px;
 	height: 580px;
-	top: 9480px; 
+	top: 9290px; 
 	left: 720px;
 }
 
@@ -2113,7 +2186,7 @@
 	background-position: center;
 	width: 390px;
 	height: 580px;
-	top: 10080px; 
+	top: 9890px; 
 	left: 300px;
 }
 
@@ -2124,7 +2197,7 @@
 	background-position: center;
 	width: 390px;
 	height: 580px;
-	top: 10080px; 
+	top: 9890px; 
 	left: 720px;
 }
 
@@ -2135,7 +2208,7 @@
 	background-position: center;
 	height: 525px;
 	width: 805px;
-	top: 10680px; 
+	top: 10490px; 
 	left: 0px;
 	right: 0px;
 	margin: auto;
@@ -2148,7 +2221,7 @@
 	background-position: center;
 	height: 585px;
 	width: 805px;
-	top: 11230px; 
+	top: 11040px; 
 	left: 0px;
 	right: 0px;
 	margin: auto;
@@ -2161,7 +2234,7 @@
 	background-position: center;
 	height: 585px;
 	width: 805px;
-	top: 11840px; 
+	top: 11650px; 
 	left: 0px;
 	right: 0px;
 	margin: auto;
@@ -2439,8 +2512,8 @@
 	background-position: center;
 	width: 540px;
 	height: 380px;
-	top: 90px; 
-	left: 300px;
+	top: 120px; 
+	left: 340px;
 }
 
 .boxroad {
@@ -2938,4 +3011,632 @@
 	font-size: 35px; 
 	color: white; 
 	font-weight: 800;
+}
+
+.panelarch2 {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto; 
+	width: 900px;
+	height: 15200px; 
+	background-color: rgb(255,255,255);
+}
+
+.green {
+	position: absolute;
+	background-image: url(greenhouse.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 525px;
+	width: 805px;
+	top: 355px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.stairs {
+	position: absolute;
+	background-image: url(stairs.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 900px; 
+	left: 290px;
+}
+
+.mic1 {
+	position: absolute;
+	background-image: url(mic.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 1230px; 
+	left: 720px;
+}
+
+.mic2 {
+	position: absolute;
+	background-image: url(mic2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 900px; 
+	left: 720px;
+}
+
+
+.lit {
+	position: absolute;
+	background-image: url(litchurch.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 1510px; 
+	left: 290px;
+}
+
+.multi {
+	position: absolute;
+	background-image: url(multi.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 1840px; 
+	left: 290px;
+}
+
+.huts {
+	position: absolute;
+	background-image: url(colorhuts.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 1840px; 
+	left: 720px;
+}
+
+.school {
+	position: absolute;
+	background-image: url(blueschool.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 460px;
+	width: 805px;
+	top: 2170px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.house {
+	position: absolute;
+	background-image: url(bluehouse.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 450px;
+	top: 2660px; 
+	left: 290px;
+}
+
+.tower {
+	position: absolute;
+	background-image: url(tower.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 2660px; 
+	left: 720px;
+}
+
+.hall {
+	position: absolute;
+	background-image: url(hall.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 3150px; 
+	left: 290px;
+}
+
+.son {
+	position: absolute;
+	background-image: url(son.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 3350px; 
+	left: 720px;
+}
+
+.street {
+	position: absolute;
+	top: 3810px; 
+	left:300px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+	text-align: right;
+}
+
+.funky {
+		position: absolute;
+	background-image: url(funky.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 460px;
+	width: 805px;
+	top: 3900px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.girl {
+	position: absolute;
+	background-image: url(girlstripe.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 4400px; 
+	left: 290px;
+}
+
+.assist {
+	position: absolute;
+	background-image: url(assist.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 4400px; 
+	left: 720px;
+}
+
+.gemini {
+	position: absolute;
+	background-image: url(gemini.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 4730px; 
+	left: 290px;
+}
+
+.balloon {
+	position: absolute;
+	background-image: url(airballoon.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 4730px; 
+	left: 720px;
+}
+
+.bull {
+	position: absolute;
+	background-image: url(bull.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 5060px; 
+	left: 720px;
+}
+
+.bust {
+	position: absolute;
+	background-image: url(bust.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 5340px; 
+	left: 290px;
+}
+
+.barf {
+	position: absolute;
+	background-image: url(barf.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 460px;
+	width: 805px;
+	top: 5680px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.fink {
+		position: absolute;
+	background-image: url(fink.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 6180px; 
+	left: 290px;
+}
+
+.bleed {
+	position: absolute;
+	background-image: url(bleed.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 6180px; 
+	left: 720px;
+}
+
+.belong {
+	position: absolute;
+	background-image: url(belonging.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 260px;
+	width: 805px;
+	top: 6520px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+
+}
+
+.hands1 {
+	position: absolute;
+	background-image: url(hands1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 260px;
+	width: 805px;
+	top: 6820px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.hands2 {
+	position: absolute;
+	background-image: url(hands2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 7120px; 
+	left: 290px;
+}
+
+.octo {
+	position: absolute;
+	background-image: url(octo.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 7120px; 
+	left: 720px;
+}
+
+.midst2 {
+	position: absolute;
+	background-image: url(midst2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 7460px; 
+	left: 290px;
+}
+
+.midst1 {
+	position: absolute;
+	background-image: url(midst1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 7460px; 
+	left: 720px;
+}
+
+.zig {
+	position: absolute;
+	background-image: url(zigzag.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 8080px; 
+	left: 290px;
+}
+
+.aka {
+	position: absolute;
+	background-image: url(aka.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 8080px; 
+	left: 720px;
+}
+
+.heart {
+	position: absolute;
+	background-image: url(heart.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 8420px; 
+	left: 290px;
+}
+
+.lcboys {
+	position: absolute;
+	background-image: url(lcboys.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 8700px; 
+	left: 720px;
+}
+
+.we {
+	position: absolute;
+	background-image: url(weare.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 260px;
+	width: 805px;
+	top: 9030px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.shook {
+	position: absolute;
+	background-image: url(shookones.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 9330px; 
+	left: 290px;
+}
+
+.swim {
+	position: absolute;
+	background-image: url(swim.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 9330px; 
+	left: 720px;
+}
+
+.drugs {
+	position: absolute;
+	background-image: url(drugs.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 9670px; 
+	left: 290px;
+}
+
+.mgl {
+	position: absolute;
+	background-image: url(mgl.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 9950px; 
+	left: 720px;
+}
+
+.cat1{
+	position: absolute;
+	background-image: url(cat1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 10290px; 
+	left: 290px;
+}
+
+.cat2 {
+	position: absolute;
+	background-image: url(cat2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 10290px; 
+	left: 720px;
+}
+
+.naturegreen {
+	position: absolute;
+	top: 10920px; 
+	left:760px;
+	font-family: Helvetica Neue; 
+	font-size: 55px; 
+	color: black; 
+	font-weight: 800;
+	text-align: right;
+}
+
+.island {
+	position: absolute;
+	background-image: url(island.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+	width: 805px;
+	top: 11040px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.lone {
+	position: absolute;
+	background-image: url(lone.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 11640px; 
+	left: 290px;
+}
+
+.big {
+	position: absolute;
+	background-image: url(bigtree.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 11640px; 
+	left: 720px;
+}
+
+.phlower {
+	position: absolute;
+	background-image: url(phlower.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 12260px; 
+	left: 290px;
+}
+
+.orange1 {
+	position: absolute;
+	background-image: url(orange1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 12260px; 
+	left: 720px;
+}
+
+.orange2 {
+	position: absolute;
+	background-image: url(orange2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 12880px; 
+	left: 290px;
+}
+
+.stock {
+	position: absolute;
+	background-image: url(stock.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 12600px; 
+	left: 720px;
+}
+
+.fairy {
+	position: absolute;
+	background-image: url(fairy.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 13220px; 
+	left: 290px;
+}
+
+
+.moher {
+	position: absolute;
+	background-image: url(moher.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 580px;
+	top: 13220px; 
+	left: 720px;
+}
+
+.cliff2 {
+	position: absolute;
+	background-image: url(cliff2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 13840px; 
+	left: 290px;
+}
+
+.cliff5 {
+	position: absolute;
+	background-image: url(cliff5.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 300px;
+	top: 13840px; 
+	left: 720px;
+}
+
+.cliff3 {
+	position: absolute;
+	background-image: url(cliff3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+	width: 805px;
+	top: 14180px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.cliffy {
+	position: absolute;
+	background-image: url(cliffy.png);
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+	width: 805px;
+	top: 14780px; 
+	left: 0px;
+	right: 0px;
+	margin: auto;
 }
