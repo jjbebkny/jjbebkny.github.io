@@ -2045,16 +2045,6 @@
 	left: 720px;
 }
 
-.school {
-	position: absolute;
-	background-image: url(school.jpg);
-	background-size: cover;
-	background-position: center;
-	width: 390px;
-	height: 600px;
-	top: 7000px; 
-	left: 300px;
-}
 
 
 .glass {
