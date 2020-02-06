@@ -131,9 +131,8 @@ body {
 
 .crazy {
 	position: relative;
-	width: 100vw; 
+	width: 100%; 
   	height: auto;
-  	left: calc(168px - 50vw);
 
 }
 
