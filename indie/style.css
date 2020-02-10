@@ -21,11 +21,11 @@ body {
 }
 
 .gif {
-	margin-top: 200px;
+	position: relative;
+	max-width: 100%;
 	margin-left:auto;
     margin-right:auto;
-    height: 350px;
-	width: 350px;
+	margin-top: 150px;
 }
 
 .box {
@@ -72,6 +72,22 @@ body {
   color: white;
 }
 
+.titlec {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	/*line-height: 20%;*/
+	line-height: 150%;
+
+	max-width: 300px;
+	margin-left:auto;
+    margin-right:auto;
+  position: relative;
+  margin-top: 40px;
+  color: white;
+}
+
 .sub {
 	font-family: 'Merriweather', serif;
 	font-size: 13px;
@@ -92,9 +108,10 @@ body {
 	top: 14px;
 	left: 14px;
 	height: 100px;
-	width: 100px;
+	width: 100px; 
+}
 	/*box-shadow: 0 200px 200px 0 rgba(0, 0, 0, 0.2), 0 200px 200px 0 rgba(0, 0, 0, 0.19);*/
-	animation-name: animA;
+	/*animation-name: animA;
 	animation-duration: 1.5s;
 	animation-iteration-count: 2;
 	animation-timing-function: ease-in-out;
@@ -110,7 +127,7 @@ body {
 	100% {
 		top:0px; 
 	}
-}
+}*/
 
 
 
@@ -197,15 +214,13 @@ body {
 
 .icon {
 	position: relative;
-		display: inline-block;
+		display: block;
 
-	width: 100%;
+	width: 335px;
 	margin-left:auto;
     margin-right:auto;
   	margin: auto;
 }
 
-.icon a{
-	display: inline-block;
-}
+
 
