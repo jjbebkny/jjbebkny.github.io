@@ -1,0 +1,45 @@
+.orange {
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  background-color: rgb(230,104,10);
+  animation-name: animA;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+@keyframes animA {
+	0% {
+		width: 40%;
+		height: 40%;
+	}
+	50% {
+		width: 60%;
+		height: 60%;
+	}
+	100% {
+		width: 40%;
+		height: 40%;
+	}
+
+}
+
+.blue {
+position: absolute;
+  top: 100vw;
+  left: 10vw;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  background-color: rgb(30,184,220);
+  animation-name: animA;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
+}
+
+
