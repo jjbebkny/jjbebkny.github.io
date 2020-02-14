@@ -14,18 +14,17 @@ body {
 	max-width: 500px;
 	margin-left:auto;
     margin-right:auto;
-    /*background-image: url(textb.jpg);*/
+    background-image: url(textb.jpg);
 	background: rgb(50,50,50);
 
-    /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 80%, rgba(255,255,255,0) 100%);*/
 }
 
 .gif {
 	position: relative;
-	max-width: 100%;
-	margin-left:auto;
-    margin-right:auto;
-	margin-top: 150px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 .box {
@@ -74,17 +73,33 @@ body {
 
 .titlec {
 	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-size: 30px;
+	font-weight: 400;
+	font-size: 20px;
 	text-align: center;
 	/*line-height: 20%;*/
-	line-height: 150%;
+	line-height: 100%;
 
 	max-width: 300px;
 	margin-left:auto;
     margin-right:auto;
   position: relative;
-  margin-top: 40px;
+  margin-top: 150px;
+  color: white;
+}
+
+.poem {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: left;
+	/*line-height: 20%;*/
+	line-height: 100%;
+
+	max-width: 300px;
+	margin-left:auto;
+    margin-right:auto;
+  position: relative;
+  margin-top: 0px;
   color: white;
 }
 
@@ -92,7 +107,6 @@ body {
 	font-family: 'Merriweather', serif;
 	font-size: 13px;
 	text-align: left;
-	/*line-height: 20%;*/
 	line-height: 100%;
 
 	max-width: 300px;
@@ -110,27 +124,42 @@ body {
 	height: 100px;
 	width: 100px; 
 }
-	/*box-shadow: 0 200px 200px 0 rgba(0, 0, 0, 0.2), 0 200px 200px 0 rgba(0, 0, 0, 0.19);*/
-	/*animation-name: animA;
-	animation-duration: 1.5s;
-	animation-iteration-count: 2;
+
+
+.scroll {
+	animation-name: animA;
+	
+	opacity: 0%;
+	top: 200px;
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	text-align: center;
+	font-weight: 300px;
+	line-height: 175%;
+  	position: relative;
+  	max-width: 300px;
+	margin-left:auto;
+    margin-right:auto;
+    color: white;
+
+	animation-duration: 2.0s;
+	animation-iteration-count: 3;
 	animation-timing-function: ease-in-out;
 }
 
 @keyframes animA {
 	0% {
-		top: 0;
-	} 
+		top: 200px;
+	}
+
 	50% {
-		top: 600px;
+		top: 160px;
+		opacity: 100%;
 	}
 	100% {
-		top:0px; 
-	}
-}*/
-
-
-
+		top: 200px;
+		
+}
 
 .jim {
 	position: relative;
