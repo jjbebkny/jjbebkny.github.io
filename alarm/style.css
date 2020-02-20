@@ -1,0 +1,567 @@
+.base {
+	position: absolute;
+	top: 500px;
+	left: 15px;
+	background-color: black;
+	height: 25px; 
+	width: 725px; 
+}
+
+.second1 {
+	position: absolute;
+	top: 475px;
+	left: 650px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second2 {
+	position: absolute;
+	top: 450px;
+	left: 650px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second3 {
+	position: absolute;
+	top: 425px;
+	left: 650px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second4 {
+	position: absolute;
+	top: 475px;
+	left: 580px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second5 {
+	position: absolute;
+	top: 450px;
+	left: 580px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+
+.second6 {
+	position: absolute;
+	top: 425px;
+	left: 580px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second7 {
+	position: absolute;
+	top: 400px;
+	left: 580px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second8 {
+	position: absolute;
+	top: 475px;
+	left: 510px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second9 {
+	position: absolute;
+	top: 450px;
+	left: 510px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second10 {
+	position: absolute;
+	top: 425px;
+	left: 510px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second11 {
+	position: absolute;
+	top: 400px;
+	left: 510px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second12 {
+	position: absolute;
+	top: 375px;
+	left: 510px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second13 {
+	position: absolute;
+	top: 350px;
+	left: 510px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second14 {
+	position: absolute;
+	top: 475px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second15 {
+	position: absolute;
+	top: 450px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second16 {
+	position: absolute;
+	top: 425px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second17 {
+	position: absolute;
+	top: 400px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second18 {
+	position: absolute;
+	top: 375px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second19 {
+	position: absolute;
+	top: 350px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+
+.second20 {
+	position: absolute;
+	top: 325px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+
+.second21 {
+	position: absolute;
+	top: 300px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+
+.second22 {
+	position: absolute;
+	top: 275px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second23 {
+	position: absolute;
+	top: 250px;
+	left: 440px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+
+.second24 {
+	position: absolute;
+	top: 475px;
+	left: 370px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second25 {
+	position: absolute;
+	top: 450px;
+	left: 370px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second26 {
+	position: absolute;
+	top: 425px;
+	left: 370px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second27 {
+	position: absolute;
+	top: 400px;
+	left: 370px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second28 {
+	position: absolute;
+	top: 375px;
+	left: 370px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+
+.second29 {
+	position: absolute;
+	top: 350px;
+	left: 370px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+.second30 {
+	position: absolute;
+	top: 325px;
+	left: 370px;
+	background-color: rgb(175, 175, 175);
+	height: 15px; 
+	width: 60px;
+}
+
+
+.minute1 {
+	position: absolute;
+	top: 450px;
+	left: 300px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute2 {
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute3 {
+	position: absolute;
+	top: 350px;
+	left: 300px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute4 {
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute5 {
+	position: absolute;
+	top: 250px;
+	left: 300px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute6 {
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+
+.minute7 {
+	position: absolute;
+	top: 450px;
+	left: 230px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute8 {
+	position: absolute;
+	top: 400px;
+	left: 230px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute9 {
+	position: absolute;
+	top: 350px;
+	left: 230px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute10 {
+	position: absolute;
+	top: 300px;
+	left: 230px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+/*.minute11 {
+	position: absolute;
+	top: 250px;
+	left: 230px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}
+
+.minute12 {
+	position: absolute;
+	top: 200px;
+	left: 230px;
+	background-color: rgb(109, 109, 109);
+	height: 40px; 
+	width: 60px;
+}*/
+
+.hour1 {
+	position: absolute;
+	top: 460px;
+	left: 160px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+
+.hour2 {
+	position: absolute;
+	top: 420px;
+	left: 160px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour3 {
+	position: absolute;
+	top: 380px;
+	left: 160px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour4 {
+	position: absolute;
+	top: 340px;
+	left: 160px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour5 {
+	position: absolute;
+	top: 300px;
+	left: 160px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour6 {
+	position: absolute;
+	top: 260px;
+	left: 160px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour7 {
+	position: absolute;
+	top: 220px;
+	left: 160px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour8 {
+	position: absolute;
+	top: 180px;
+	left: 160px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+
+
+
+
+
+
+.hour9 {
+	position: absolute;
+	top: 460px;
+	left: 90px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+
+.hour10 {
+	position: absolute;
+	top: 420px;
+	left: 90px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour11 {
+	position: absolute;
+	top: 380px;
+	left: 90px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour12 {
+	position: absolute;
+	top: 340px;
+	left: 90px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour13 {
+	position: absolute;
+	top: 300px;
+	left: 90px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour14 {
+	position: absolute;
+	top: 260px;
+	left: 90px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+/*.hour15 {
+	position: absolute;
+	top: 220px;
+	left: 90px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour16 {
+	position: absolute;
+	top: 180px;
+	left: 90px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}*/
+
+.hour17 {
+	position: absolute;
+	top: 460px;
+	left: 20px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+.hour18 {
+	position: absolute;
+	top: 420px;
+	left: 20px;
+	background-color: rgb(75, 75, 75);
+	height: 30px; 
+	width: 60px;
+}
+
+
+
