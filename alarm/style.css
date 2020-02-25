@@ -1,6 +1,6 @@
 .base {
 	position: absolute;
-	top: 500px;
+	bottom: 200px;
 	left: 15px;
 	background-color: black;
 	height: 25px; 
@@ -15,7 +15,7 @@
 	height: 15px; 
 	width: 60px;
 	animation-name: A;
-	animation-duration: 1s;
+	animation-duration: 0.3s;
 	animation-iteration-count: infinite;
 }
 
@@ -24,22 +24,25 @@
 	height: : 15px;
 	}
 
-	100% {
+	50% {
 		height: 65px;
 	}
-}
 
+	100% {
+		height: 15px;
+	}
+}
 
 
 .second4 {
 	position: absolute;
 	bottom: 230px;	
-	left: 580px;
+	left: 20px;
 	background-color: rgb(175, 175, 175);
 	height: 15px; 
 	width: 60px;
 	animation-name: B;
-	animation-duration: 1s;
+	animation-duration: .3s;
 	animation-iteration-count: infinite;
 }
 
@@ -48,8 +51,12 @@
 	height: : 15px;
 	}
 
-	100% {
+	50% {
 		height: 90px;
+	}
+
+	100% {
+		height: 15px;
 	}
 }
 
@@ -63,7 +70,7 @@
 	height: 15px; 
 	width: 60px;
 	animation-name: C;
-	animation-duration: 1s;
+	animation-duration: .3s;
 	animation-iteration-count: infinite;
 }
 
@@ -72,8 +79,12 @@
 	height: : 15px;
 	}
 
-	100% {
+	50% {
 		height: 140px;
+	}
+
+	100% {
+		height: 15px;
 	}
 }
 
@@ -81,12 +92,12 @@
 .second14 {
 	position: absolute;
 	bottom: 230px;
-	left: 440px;
+	left: 160px;
 	background-color: rgb(175, 175, 175);
 	height: 15px; 
 	width: 60px;
 	animation-name: D;
-	animation-duration: 1s;
+	animation-duration: .3s;
 	animation-iteration-count: infinite;
 }
 
@@ -95,8 +106,12 @@
 	height: : 15px;
 	}
 
-	100% {
+	50% {
 		height: 240px;
+	}
+
+	100% {
+		height: 15px; 
 	}
 }
 
@@ -107,12 +122,12 @@
 .second24 {
 	position: absolute;
 	bottom: 230px;
-	left: 370px;
+	left: 300px;
 	background-color: rgb(175, 175, 175);
 	height: 15px; 
 	width: 60px;
 	animation-name: E;
-	animation-duration: 1s;
+	animation-duration: .3s;
 	animation-iteration-count: infinite;
 }
 
@@ -121,8 +136,12 @@
 	height: : 15px;
 	}
 
-	100% {
+	50% {
 		height: 165px;
+	}
+
+	100% {
+		height: 15px;
 	}
 }
 
@@ -131,12 +150,12 @@
 .minute1 {
 	position: absolute;
 	bottom: 230px;
-	left: 300px;
+	left: 370px;
 	background-color: rgb(109, 109, 109);
 	height: 40px; 
 	width: 60px;
 	animation-name: F;
-	animation-duration: 6s;
+	animation-duration: 2s;
 	animation-iteration-count: infinite;
 }
 
@@ -145,8 +164,12 @@
 	height: : 40px;
 	}
 
-	100% {
+	50% {
 		height: 290px;
+	}
+
+	100% {
+		height: 40px;
 	}
 }
 
@@ -160,7 +183,7 @@
 	height: 40px; 
 	width: 60px;
 	animation-name: G;
-	animation-duration: 6s;
+	animation-duration: 2s;
 	animation-iteration-count: infinite;
 }
 
@@ -169,8 +192,12 @@
 	height: : 40px;
 	}
 
-	100% {
+	50% {
 		height: 200px;
+	}
+
+	100% {
+		height: 40px;
 	}
 }
 
@@ -197,12 +224,12 @@
 .hour1 {
 	position: absolute;
 	bottom: 230px;
-	left: 160px;
+	left: 440px;
 	background-color: rgb(75, 75, 75);
 	height: 30px; 
 	width: 60px;
 	animation-name: H;
-	animation-duration: 20s;
+	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
 
@@ -211,8 +238,12 @@
 	height: : 40px;
 	}
 
-	100% {
+	50% {
 		height: 310px;
+	}
+
+	100% {
+		height: 40px;
 	}
 }
 
@@ -227,7 +258,7 @@
 	height: 30px; 
 	width: 60px;
 	animation-name: J;
-	animation-duration: 20s;
+	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
 
@@ -236,8 +267,12 @@
 	height: : 30px;
 	}
 
-	100% {
+	50% {
 		height: 230px;
+	}
+
+	100% {
+		height: 30px;
 	}
 }
 
@@ -262,12 +297,12 @@
 .hour17 {
 	position: absolute;
 	bottom: 230px;
-	left: 20px;
+	left: 580px;
 	background-color: rgb(75, 75, 75);
 	height: 30px; 
 	width: 60px;
 	animation-name: K;
-	animation-duration: 20s;
+	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
 
@@ -276,9 +311,23 @@
 	height: : 30px;
 	}
 
-	100% {
+	50% {
 		height: 70px;
 	}
+
+	100% {
+		height: 30px;
+	}
+
 }
+
+second4 580
+
+hour17 20
+
+second14 440
+
+hour1 160
+
 
 
