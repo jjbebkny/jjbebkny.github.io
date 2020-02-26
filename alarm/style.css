@@ -321,13 +321,34 @@
 
 }
 
-second4 580
+.gif {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	height: 540px;
+	width: 735px;
+	opacity: 0%;
+}
 
-hour17 20
+.gif.alarm {
+	opacity: 100;
+}
 
-second14 440
 
-hour1 160
+.snooze {
+	position: absolute;
+	top: 575px;
+	left: 250px;
+	height: 70px;
+	width: 245px;
+	opacity: 0;
+}
+
+
+.snooze.alarm {
+	opacity: 100;
+}
+
 
 
 
