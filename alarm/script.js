@@ -1,7 +1,10 @@
 $(document).ready(function(){
+
+	$("audio")[0].play();
   
   setTimeout(function() {
     $(".gif").addClass("alarm");
     $(".snooze").addClass("alarm");
-  }, 15000);
+    $(".orange").addClass("alarm");
+  }, 3000);
 });

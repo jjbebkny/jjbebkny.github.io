@@ -306,6 +306,19 @@
 	animation-iteration-count: infinite;
 }
 
+/*.orange {
+	position: absolute;
+	bottom: 0;
+	left:0;
+	height: 7000px;
+	width: 1090px;
+	background-color: rgb(200,20, 80);
+}
+
+.orange.alarm {
+	background-color: rgb(30,20, 240);
+}*/
+
 @keyframes K {
 	0% {
 	height: : 30px;
@@ -323,8 +336,8 @@
 
 .gif {
 	position: absolute;
-	top: 15px;
-	left: 15px;
+	bottom: 165px;
+	left: 10px;
 	height: 540px;
 	width: 735px;
 	opacity: 0%;
