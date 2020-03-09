@@ -6,5 +6,5 @@ $(document).ready(function(){
     $(".gif").addClass("alarm");
     $(".snooze").addClass("alarm");
     $(".orange").addClass("alarm");
-  }, 3000);
+  }, 8000);
 });
