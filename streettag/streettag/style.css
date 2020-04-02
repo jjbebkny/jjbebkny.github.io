@@ -41,19 +41,23 @@ body {
 
 .score {
   position: absolute;
-  top: 10px;
+  top: 30px;
   right: 10px;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 60px;
   line-height: 40px;
-  border-radius: 50%;
-  background-color: rgb(243, 128, 25);
+  /*border-radius: 50%;
+  background-color: rgb(243, 128, 25);*/
+  background-image: url("./img/spray.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 22px;
   text-align: center;
 }
+
 
 .background {
   position: absolute;
